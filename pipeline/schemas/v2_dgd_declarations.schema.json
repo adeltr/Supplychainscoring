@@ -1,0 +1,84 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "DGD - déclarations en douane",
+ "description": "Une ligne par entreprise × HS10 × origine × période",
+ "x-confidentialite": "confidentiel : entreprise identifiable",
+ "x-cle_de_jointure": "entreprise_id",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "entreprise_id",
+   "hs10",
+   "pays_origine",
+   "periode",
+   "flux",
+   "valeur_usd"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "entreprise_id": {
+    "type": "string",
+    "description": "Identifiant d'entreprise pseudonymisé (NIF ou numéro de registre haché)"
+   },
+   "hs10": {
+    "type": "string",
+    "pattern": "^[0-9]{10}$"
+   },
+   "pays_origine": {
+    "type": "string",
+    "pattern": "^[A-Z]{3}$"
+   },
+   "periode": {
+    "type": "string",
+    "pattern": "^[0-9]{4}(-[0-9]{2})?$"
+   },
+   "flux": {
+    "enum": [
+     "import",
+     "export"
+    ]
+   },
+   "regime_douanier": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "valeur_usd": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "valeur_dzd": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "quantite": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "unite": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "droits_acquittes_dzd": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "capacities",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "type",
+   "label",
+   "state",
+   "required_by"
+  ],
+  "properties": {
+   "type": {
+    "enum": [
+     "competence",
+     "norme",
+     "infrastructure",
+     "ressource"
+    ]
+   },
+   "state": {
+    "enum": [
+     "disponible",
+     "partielle",
+     "manquante",
+     "inconnue"
+    ]
+   },
+   "required_by": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^[0-9]{6}$"
+    }
+   }
+  }
+ }
+}

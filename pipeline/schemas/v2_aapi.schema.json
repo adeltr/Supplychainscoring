@@ -1,0 +1,75 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "AAPI - projets d'investissement",
+ "description": "Une ligne par projet déclaré",
+ "x-confidentialite": "diffusion restreinte",
+ "x-cle_de_jointure": "entreprise_id",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "projet_id",
+   "entreprise_id",
+   "hs6_vise",
+   "etat"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "projet_id": {
+    "type": "string"
+   },
+   "entreprise_id": {
+    "type": "string",
+    "description": "Identifiant d'entreprise pseudonymisé (NIF ou numéro de registre haché)"
+   },
+   "hs6_vise": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^[0-9]{6}$"
+    }
+   },
+   "montant_dzd": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "emplois_prevus": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "avantages": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "etat": {
+    "enum": [
+     "declare",
+     "en_realisation",
+     "en_exploitation",
+     "abandonne"
+    ]
+   },
+   "date_declaration": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "format": "date"
+   },
+   "wilaya": {
+    "type": [
+     "string",
+     "null"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "meta",
+ "type": "object",
+ "required": [
+  "genere_le",
+  "decompte_qualite",
+  "taux_change",
+  "presets",
+  "avertissements"
+ ]
+}

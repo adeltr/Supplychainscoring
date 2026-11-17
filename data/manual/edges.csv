@@ -1,0 +1,59 @@
+from,to,kind,source,note
+271121,290121,critique,WA,Vapocraquage de l'éthane extrait du gaz naturel
+271000,290121,secondaire,WA,Voie alternative : vapocraquage du naphta
+271112,290122,critique,WA,Déshydrogénation du propane
+271000,290122,secondaire,WA,Voie alternative : coproduit du vapocraquage et du craquage catalytique
+271000,290220,critique,WA,Reformage catalytique puis extraction des aromatiques
+271000,290243,critique,WA,Reformage catalytique puis séparation des xylènes
+250100,280110,critique,WA,Électrolyse de la saumure (chlore-soude)
+271121,290511,critique,WA,Reformage du gaz en gaz de synthèse puis synthèse du méthanol
+271121,310210,critique,WA,Gaz vers ammoniac puis urée
+290121,290250,critique,WA,Alkylation du benzène par l'éthylène puis déshydrogénation
+290220,290250,critique,WA,Benzène de l'éthylbenzène
+290121,290531,critique,WA,Oxydation en oxyde d'éthylène puis hydratation
+290243,291736,critique,WA,Oxydation du p-xylène
+290511,291211,critique,WA,Oxydation catalytique du méthanol
+290121,390110,critique,WA,Polymérisation haute pression de l'éthylène
+290121,390120,critique,WA,Polymérisation basse pression de l'éthylène
+290122,390210,critique,WA,Polymérisation du propène
+290250,390311,critique,WA,Polymérisation en suspension du styrène avec agent d'expansion
+290250,390319,critique,WA,Polymérisation du styrène
+290321,390410,critique,WA,Polymérisation du chlorure de vinyle
+291736,390760,critique,WA,Polycondensation de l'acide téréphtalique
+290531,390760,critique,WA,Diol de la polycondensation
+291211,390910,critique,WA,Condensation urée-formaldéhyde
+310210,390910,critique,WA,Urée de la condensation
+390120,391721,critique,PE,Extrusion de tubes ; le PEHD est la résine de base
+280300,391721,secondaire,PE,Noir de carbone pour la tenue aux ultraviolets
+390210,391722,critique,PE,Extrusion de tubes
+390410,391723,critique,PE,Extrusion de tubes
+381230,391723,secondaire,PE,Stabilisants thermiques du PVC
+390110,392010,critique,PE,Extrusion-soufflage de films ; le PEBD est la résine de base
+390120,392010,secondaire,PE,Résine complémentaire des films
+381230,392010,secondaire,PE,Antioxydants et stabilisants
+390210,392020,critique,PE,Extrusion et étirage de films
+390410,392043,critique,PE,Calandrage ou extrusion
+291732,392043,critique,PE,Le PVC souple exige un plastifiant (au moins 6 % dans la définition du code)
+390760,392062,critique,PE,Extrusion et bi-étirage
+390311,392111,critique,PE,Moulage du polystyrène expansible
+390410,391740,critique,PE,Injection de raccords
+390210,391740,secondaire,PE,Raccords en polypropylène
+390410,391810,critique,PE,Enduction ou calandrage
+291732,391810,critique,PE,Plastifiant des revêtements souples
+390210,392310,critique,PE,Injection
+390120,392310,secondaire,PE,Injection de caisses en PEHD
+390110,392321,critique,PE,Extrusion-soufflage de gaine puis soudure
+390120,392321,secondaire,PE,Sacs en PEHD
+390760,392330,critique,PE,Injection-soufflage de préformes
+390120,392330,secondaire,PE,Extrusion-soufflage de flacons en PEHD
+390120,392350,critique,PE,Injection ou compression de bouchons
+390210,392350,secondaire,PE,Bouchons en polypropylène
+390210,392410,critique,PE,Injection
+390120,392510,critique,PE,Rotomoulage ou extrusion-soufflage
+390410,392520,critique,PE,Extrusion de profilés
+320611,392520,secondaire,PE,Pigment blanc des profilés
+381230,392520,secondaire,PE,Stabilisants thermiques
+390210,392690,critique,PE,Injection ; code hétérogène donc lien indicatif
+390120,392690,secondaire,PE,Injection ; code hétérogène donc lien indicatif
+290121,290321,critique,WA,Chloration de l'éthylène en dichlorure d'éthylène puis craquage (intermédiaire non isolé ici)
+280110,290321,critique,WA,Chlore de la chloration de l'éthylène

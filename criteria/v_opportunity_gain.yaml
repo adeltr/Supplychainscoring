@@ -1,0 +1,17 @@
+id: v_opportunity_gain
+famille: valeur
+libelle: Gain d'opportunité
+definition: >
+  Mesure combien l'entrée dans ce produit rapprocherait l'Algérie d'autres
+  produits complexes qu'elle ne fabrique pas encore.
+formule: "Complexity Outlook Gain du Growth Lab"
+source: {nom: "Growth Lab, Atlas of Economic Complexity, International Trade Data (HS 12)", url: "https://doi.org/10.7910/DVN/YAVJDF", licence: "CC BY 4.0 (à vérifier sur la page du jeu de données)", millesime: 2024}
+type: donnee
+champ: v_opportunity_gain
+normalisation: {methode: minmax}
+sens: plus_haut_plus_favorable
+poids_defaut: 2
+actif_par_defaut: true
+limites: >
+  Publié au niveau HS4. Très corrélé à la complexité sur une filière étroite :
+  risque de double comptage si les deux critères ont un poids élevé.

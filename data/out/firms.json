@@ -1,0 +1,894 @@
+[
+ {
+  "id": "f01",
+  "name": "Sonatrach (complexes CP1Z et CP2K)",
+  "statut": "public",
+  "products": [
+   "290511",
+   "291211",
+   "390910",
+   "390120"
+  ],
+  "imported_inputs": [],
+  "exports": [
+   "290511"
+  ],
+  "projets": [
+   "290121"
+  ],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "271121": {
+    "score": 40,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "290121": {
+    "score": 90,
+    "reasons": [
+     "projet annoncé sur ce produit (+50)",
+     "fabrique un produit qui l'utilise (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "290511": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "310210": {
+    "score": 40,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "290531": {
+    "score": 35,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Méthanol (+25)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "291211": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "390110": {
+    "score": 35,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Polyéthylène haute densité (densité ≥ 0.94) (+25)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "390120": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "390910": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391721": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392010": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392310": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392321": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392330": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392350": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392510": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392690": {
+    "score": 40,
+    "reasons": [
+     "fabrique un intrant du produit : Polyéthylène haute densité (densité ≥ 0.94) (+30)",
+     "exporte déjà (+10)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S1",
+    "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+    "url": "https://sonatrach.com/refining-petrochemicals/",
+    "date": "consulté 2026-11",
+    "nature": "site d'entreprise"
+   },
+   {
+    "id": "S2",
+    "titre": "MEES - Sonatrach to replace Skikda plastics complex (unité d'éthylène de 120 000 t/an jugée non compétitive ; fermeture annoncée)",
+    "url": "https://www.mees.com/2013/12/6/refining-petrochemicals/sonatrach-to-replace-skikda-plastics-complex/9154cc50-6df7-11e7-ac98-d3b564145f5c",
+    "date": "2013-12",
+    "nature": "presse spécialisée"
+   },
+   {
+    "id": "S13",
+    "titre": "Zawya - Chinese firm to prepare study for Algeria petrochem project (nouveau vapocraqueur à Skikda)",
+    "url": "https://www.zawya.com/en/projects/bri/chinese-firm-to-prepare-study-for-algeria-petrochem-project-cjt0dj17",
+    "date": "non datée",
+    "nature": "presse"
+   }
+  ],
+  "note": "PEHD au CP2K : fonctionnement non confirmé ; vapocraqueur à l'étude"
+ },
+ {
+  "id": "f02",
+  "name": "STEP (Sonatrach - TotalEnergies)",
+  "statut": "mixte",
+  "products": [],
+  "imported_inputs": [],
+  "exports": [],
+  "projets": [
+   "290122",
+   "390210"
+  ],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "290122": {
+    "score": 50,
+    "reasons": [
+     "projet annoncé sur ce produit (+50)"
+    ]
+   },
+   "390210": {
+    "score": 50,
+    "reasons": [
+     "projet annoncé sur ce produit (+50)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S3",
+    "titre": "Sonatrach - L'usine de polypropylène d'Arzew entrera en production en 2025 (PDH + PP 550 000 t/an)",
+    "url": "https://sonatrach.com/actualites/oran-lusine-de-production-de-polypropylene-darzew-entrera-en-production-en-2025",
+    "date": "non datée",
+    "nature": "communiqué d'entreprise"
+   }
+  ],
+  "note": "Projet de polypropylène à Arzew ; mise en service non confirmée"
+ },
+ {
+  "id": "f03",
+  "name": "Chiali Tubes (groupe Chiali)",
+  "statut": "privé",
+  "products": [
+   "391721",
+   "391723"
+  ],
+  "imported_inputs": [
+   "390120",
+   "390410"
+  ],
+  "exports": [
+   "391721"
+  ],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390120": {
+    "score": 40,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "390410": {
+    "score": 40,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "381230": {
+    "score": 40,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "280300": {
+    "score": 40,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "391721": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391722": {
+    "score": 35,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Tubes rigides en polyéthylène, Tubes rigides en PVC (+25)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "391723": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391740": {
+    "score": 35,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Tubes rigides en polyéthylène, Tubes rigides en PVC (+25)",
+     "exporte déjà (+10)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S5",
+    "titre": "Algérie Eco - Sidi Bel Abbès : exportation de tubes de polyéthylène vers la Mauritanie (groupe Chiali)",
+    "url": "https://algerie-eco.com/2024/08/22/sidi-bel-abbes-exportation-de-tubes-de-polyethylene-et-de-rond-a-beton-vers-la-mauritanie/",
+    "date": "2024-08",
+    "nature": "presse"
+   },
+   {
+    "id": "S6",
+    "titre": "Novojob - fiche Spa Chiali Tube (usines PVC et PE)",
+    "url": "https://www.novojob.com/entreprise/spa-chiali-tube/presentation",
+    "date": "non datée",
+    "nature": "annuaire"
+   }
+  ],
+  "note": "Intrants déduits du procédé"
+ },
+ {
+  "id": "f04",
+  "name": "Setif Pipe",
+  "statut": "privé",
+  "products": [
+   "391721",
+   "391723",
+   "391740"
+  ],
+  "imported_inputs": [
+   "390120",
+   "390410"
+  ],
+  "exports": [],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390120": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "390210": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "390410": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "381230": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "280300": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "391721": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391722": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Tubes rigides en polyéthylène, Tubes rigides en PVC, Accessoires de tuyauterie en plastique (+25)"
+    ]
+   },
+   "391723": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391740": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S12",
+    "titre": "Issuu - Industrie Algérie n°2 (Setif Pipe ; Cite Tubes : tubes PEHD et PVC ; accessoires)",
+    "url": "https://issuu.com/maghrebex/docs/industrie-algerie-2/88",
+    "date": "non datée",
+    "nature": "revue professionnelle"
+   }
+  ],
+  "note": "Intrants déduits du procédé"
+ },
+ {
+  "id": "f05",
+  "name": "Cite Tubes",
+  "statut": "privé",
+  "products": [
+   "391721",
+   "391723"
+  ],
+  "imported_inputs": [
+   "390120",
+   "390410"
+  ],
+  "exports": [],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390120": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "390410": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "381230": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "280300": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "391721": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391722": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Tubes rigides en polyéthylène, Tubes rigides en PVC (+25)"
+    ]
+   },
+   "391723": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "391740": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Tubes rigides en polyéthylène, Tubes rigides en PVC (+25)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S12",
+    "titre": "Issuu - Industrie Algérie n°2 (Setif Pipe ; Cite Tubes : tubes PEHD et PVC ; accessoires)",
+    "url": "https://issuu.com/maghrebex/docs/industrie-algerie-2/88",
+    "date": "non datée",
+    "nature": "revue professionnelle"
+   }
+  ],
+  "note": "Intrants déduits du procédé"
+ },
+ {
+  "id": "f06",
+  "name": "SGT Algérie",
+  "statut": "privé (capitaux étrangers)",
+  "products": [
+   "392330",
+   "392350"
+  ],
+  "imported_inputs": [
+   "390760",
+   "390120"
+  ],
+  "exports": [
+   "392330"
+  ],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390120": {
+    "score": 40,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "390210": {
+    "score": 40,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "390760": {
+    "score": 40,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392310": {
+    "score": 35,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Bouteilles, flacons et bonbonnes en plastique, Bouchons, couvercles et capsules en plastique (+25)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392321": {
+    "score": 35,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Bouteilles, flacons et bonbonnes en plastique, Bouchons, couvercles et capsules en plastique (+25)",
+     "exporte déjà (+10)"
+    ]
+   },
+   "392330": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "392350": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S7",
+    "titre": "Algérie 360 - SGT ouvre une deuxième usine en Algérie (préformes PET et bouchons ; surplus exporté)",
+    "url": "https://www.algerie360.com/specialisee-dans-la-fabrication-de-preformes-et-de-bouchons-en-polyethylenelentreprise-francaise-sgt-ouvre-une-deuxieme-usine-en-algerie/",
+    "date": "vers 2012-2013",
+    "nature": "presse"
+   }
+  ],
+  "note": "Préformes classées avec les bouteilles (392330) ; intrants déduits du procédé"
+ },
+ {
+  "id": "f07",
+  "name": "Général Plast (Akbou)",
+  "statut": "privé",
+  "products": [
+   "392330"
+  ],
+  "imported_inputs": [
+   "390760"
+  ],
+  "exports": [],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390120": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "390760": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "392310": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Bouteilles, flacons et bonbonnes en plastique (+25)"
+    ]
+   },
+   "392321": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Bouteilles, flacons et bonbonnes en plastique (+25)"
+    ]
+   },
+   "392330": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "392350": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Bouteilles, flacons et bonbonnes en plastique (+25)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S8",
+    "titre": "Université de Béjaïa - mémoire sur la qualité des préformes de Général Plast (Akbou)",
+    "url": "https://www.univ-bejaia.dz/jspui/bitstream/123456789/27001/1/000189.pdf",
+    "date": "2024-2025",
+    "nature": "mémoire universitaire"
+   }
+  ],
+  "note": "Intrants déduits du procédé"
+ },
+ {
+  "id": "f08",
+  "name": "Sofiplast",
+  "statut": "privé",
+  "products": [
+   "392010"
+  ],
+  "imported_inputs": [
+   "390110",
+   "390120"
+  ],
+  "exports": [],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390110": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "390120": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "381230": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "392010": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "392020": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392043": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392062": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S9",
+    "titre": "Macplas - Encore of Colines in Algeria (lignes de film soufflé livrées à Sofiplast)",
+    "url": "https://www.macplas.it/en/technology/extrusion/encore-colines-algeria",
+    "date": "non datée",
+    "nature": "presse spécialisée"
+   }
+  ],
+  "note": "Intrants déduits du procédé"
+ },
+ {
+  "id": "f09",
+  "name": "Agro-Film",
+  "statut": "privé",
+  "products": [
+   "392010",
+   "392321"
+  ],
+  "imported_inputs": [
+   "390110",
+   "390120"
+  ],
+  "exports": [],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390110": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "390120": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "381230": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "392010": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "392020": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392043": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392062": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392310": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Sacs et sachets en polyéthylène (+25)"
+    ]
+   },
+   "392321": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "392330": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Sacs et sachets en polyéthylène (+25)"
+    ]
+   },
+   "392350": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Sacs et sachets en polyéthylène (+25)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S10",
+    "titre": "Djazagro - Agro-Film (extrusion de films et emballages souples)",
+    "url": "https://www.djazagro.com/en/news-trends/News/Agro-film",
+    "date": "non datée",
+    "nature": "salon professionnel"
+   }
+  ],
+  "note": "Intrants déduits du procédé"
+ },
+ {
+  "id": "f10",
+  "name": "Pack Flow",
+  "statut": "privé",
+  "products": [
+   "392010"
+  ],
+  "imported_inputs": [
+   "390110"
+  ],
+  "exports": [],
+  "projets": [],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "390110": {
+    "score": 30,
+    "reasons": [
+     "importe ce produit comme intrant : intérêt à l'intégrer (+30)"
+    ]
+   },
+   "390120": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "381230": {
+    "score": 30,
+    "reasons": [
+     "fabrique un produit qui l'utilise (+30)"
+    ]
+   },
+   "392010": {
+    "score": 100,
+    "reasons": [
+     "fabrique déjà ce produit"
+    ]
+   },
+   "392020": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392043": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   },
+   "392062": {
+    "score": 25,
+    "reasons": [
+     "fabrique un produit de la même position HS4 : Films et feuilles en polyéthylène (+25)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S15",
+    "titre": "Emploitic - Sarl Pack Flow (offre d'emploi : extrusion de film soufflé et coulé)",
+    "url": "https://emploitic.com/entreprises/sarl-pack-flow/offres-d-emploi/services/operateur-sur-machine-ycwqa",
+    "date": "non datée",
+    "nature": "offre d'emploi"
+   }
+  ],
+  "note": "Activité déduite d'une offre d'emploi : à confirmer"
+ },
+ {
+  "id": "f11",
+  "name": "Groupe Souakri",
+  "statut": "privé",
+  "products": [],
+  "imported_inputs": [],
+  "exports": [],
+  "projets": [
+   "291211"
+  ],
+  "financial_capacity": {
+   "raw": null,
+   "quality": "missing",
+   "source": null
+  },
+  "proximity": {
+   "291211": {
+    "score": 50,
+    "reasons": [
+     "projet annoncé sur ce produit (+50)"
+    ]
+   }
+  },
+  "sources": [
+   {
+    "id": "S11",
+    "titre": "TSA - Le groupe Souakri lance un projet pétrochimique (formaldéhyde 100 000 t/an à Mostaganem)",
+    "url": "https://www.tsa-algerie.com/le-groupe-souakri-lance-un-nouveau-projet-petrochimique-en-algerie",
+    "date": "non datée",
+    "nature": "presse"
+   }
+  ],
+  "note": "Projet de formaldéhyde à Mostaganem"
+ }
+]

@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Programmes prévisionnels d'importation",
+ "description": "Une ligne par entreprise × HS10 × année",
+ "x-confidentialite": "confidentiel",
+ "x-cle_de_jointure": "entreprise_id",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "entreprise_id",
+   "hs10",
+   "annee"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "entreprise_id": {
+    "type": "string",
+    "description": "Identifiant d'entreprise pseudonymisé (NIF ou numéro de registre haché)"
+   },
+   "hs10": {
+    "type": "string",
+    "pattern": "^[0-9]{10}$"
+   },
+   "annee": {
+    "type": "integer",
+    "minimum": 2000
+   },
+   "valeur_prevue_usd": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "quantite_prevue": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "unite": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "usage": {
+    "enum": [
+     "transformation",
+     "revente",
+     "equipement",
+     null
+    ]
+   }
+  }
+ }
+}

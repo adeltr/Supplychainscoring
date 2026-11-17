@@ -1,0 +1,14 @@
+id,type,label,required_by,state,sources,note
+cap_charge_gaz,ressource,"Gaz, éthane et propane disponibles comme charge",290121;290122;290511;310210,disponible,BACI,Exportations de gaz naturel et de propane observées dans BACI
+cap_vapocraqueur,infrastructure,Vapocraqueur en service,290121,partielle,S2;S13,Ancienne unité de Skikda jugée non compétitive ; nouveau vapocraqueur à l'étude
+cap_pdh,infrastructure,Unité de déshydrogénation du propane,290122,manquante,S3,Projet STEP Arzew ; mise en service non confirmée
+cap_aromatiques,infrastructure,Reformage et extraction des aromatiques,290220;290243,partielle,BACI,Benzène exporté ; aucun flux de p-xylène
+cap_electrolyse,infrastructure,Électrolyse chlore-soude,280110,inconnue,,Aucune source publique trouvée dans cette session
+cap_electricite,infrastructure,Électricité industrielle disponible,280110;390110;390120;390210;390410;390760,disponible,BACI,Exportations d'électricité observées dans BACI (code 271600)
+cap_zone_petrochimique,infrastructure,Zones pétrochimiques portuaires avec utilités (Arzew ; Skikda),290121;290122;290250;290321;290531;291736;390110;390120;390210;390311;390319;390410;390760,disponible,S1,Complexes existants listés par Sonatrach
+cap_exploitation_petrochimie,competence,Ingénieurs et opérateurs de procédés pétrochimiques,290121;290122;290250;290321;290531;291736;291211;390910,disponible,S1,Complexes en exploitation (CP1Z)
+cap_licences_polymerisation,competence,Licences et maîtrise des procédés de polymérisation,390110;390120;390210;390311;390319;390410;390760,partielle,S1;S3,PEHD (CP2K) et projet de polypropylène ; rien pour les autres résines
+cap_parc_machines,infrastructure,Parc d'extrudeuses et de presses à injecter,391721;391722;391723;392010;392020;392043;392062;392111;391740;391810;392310;392321;392330;392350;392410;392510;392520;392690,disponible,S14;S12,Tissu de transformateurs existant ; machines importées
+cap_moules,competence,Conception et maintenance de moules et d'outillages,391740;392310;392330;392350;392410;392690,inconnue,,Aucune source publique trouvée dans cette session
+cap_norme_alimentaire,norme,Conformité au contact alimentaire et laboratoires d'essai,392010;392020;392062;392310;392330;392350;392410,inconnue,,Aucune source publique trouvée dans cette session
+cap_norme_reseaux,norme,Certification des tubes pour l'eau potable et le gaz,391721;391722;391723;391740,inconnue,,Aucune source publique trouvée dans cette session

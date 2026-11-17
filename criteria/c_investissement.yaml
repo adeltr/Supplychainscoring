@@ -1,0 +1,18 @@
+id: c_investissement
+famille: cout
+libelle: Investissement initial
+definition: >
+  Ordre de grandeur du capital à engager pour une unité de taille efficace.
+formule: "classe de 1 (atelier de transformation) à 5 (complexe pétrochimique intégré)"
+source: {nom: "Aucune source publique homogène par HS6", url: null, licence: null, millesime: null}
+type: donnee
+champ: c_investissement
+normalisation: {methode: bornes, min: 1, max: 5}
+sens: plus_bas_plus_favorable
+poids_defaut: 3
+actif_par_defaut: true
+limites: >
+  Donnée manquante en V1. Des classes de démonstration existent
+  (data/manual/demo_values.csv), désactivées par défaut. À remplacer par les
+  montants des projets déclarés à l'AAPI (V2) ou par des références
+  d'ingénierie.

@@ -1,0 +1,20 @@
+id: v_entrainement
+famille: valeur
+libelle: Effet d'entraînement
+definition: >
+  Valeur des importations que le produit aide à remplacer plus loin dans la
+  chaîne : somme des importations de tous les produits situés en aval et pas
+  encore disponibles localement.
+formule: "somme des importations des descendants du nœud dans le graphe, hors nœuds déjà disponibles"
+source: {nom: "Graphe de la filière et BACI", url: null, licence: null, millesime: "2022-2024"}
+type: calcule
+depend_de: [aretes, importations, etat_de_la_chaine]
+normalisation: {methode: logminmax}
+sens: plus_haut_plus_favorable
+poids_defaut: 3
+actif_par_defaut: true
+limites: >
+  Limité aux produits de la filière : les débouchés hors plasturgie ne sont pas
+  comptés. La centralité de distorsion de Liu (2019) n'est pas calculable en
+  V1 : elle demande un tableau entrées-sorties national et des mesures de
+  distorsion par secteur.

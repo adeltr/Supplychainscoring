@@ -1,0 +1,44 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "DGI - agrégats fiscaux",
+ "description": "Une ligne par entreprise × exercice, par tranches",
+ "x-confidentialite": "secret fiscal : tranches seulement",
+ "x-cle_de_jointure": "entreprise_id",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "entreprise_id",
+   "exercice"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "entreprise_id": {
+    "type": "string",
+    "description": "Identifiant d'entreprise pseudonymisé (NIF ou numéro de registre haché)"
+   },
+   "exercice": {
+    "type": "integer",
+    "minimum": 2000
+   },
+   "tranche_chiffre_affaires": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "tranche_resultat": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "tranche_immobilisations": {
+    "type": [
+     "string",
+     "null"
+    ]
+   }
+  }
+ }
+}

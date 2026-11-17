@@ -1,0 +1,19 @@
+id: v_imports_evites
+famille: valeur
+libelle: Importations évitées nettes
+definition: >
+  Importations du produit que la production locale remplacerait, moins les
+  importations d'intrants que cette production déclencherait tant que ses
+  intrants critiques ne sont pas disponibles localement.
+formule: "importations × (1 − part des intrants dans la valeur × part des intrants critiques non disponibles)"
+source: {nom: "BACI (CEPII) HS 2012 et graphe de la filière", url: "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37", licence: "Etalab 2.0", millesime: "2022-2024"}
+type: calcule
+depend_de: [importations, aretes, etat_de_la_chaine, part_intrants_dans_valeur]
+normalisation: {methode: logminmax}
+sens: plus_haut_plus_favorable
+poids_defaut: 4
+actif_par_defaut: true
+limites: >
+  Valeur estimée : la part des intrants dans la valeur est une hypothèse
+  unique (60 % par défaut, réglable), faute de coefficients techniques par
+  produit. Suppose une substitution complète des importations.

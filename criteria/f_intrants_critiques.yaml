@@ -1,0 +1,19 @@
+id: f_intrants_critiques
+famille: faisabilite
+libelle: Intrants critiques disponibles
+definition: >
+  Part des intrants critiques du produit qui sont disponibles localement :
+  couverts aujourd'hui, ou lancés dans une vague antérieure de la feuille de
+  route.
+formule: "100 × (nombre d'intrants critiques disponibles) / (nombre d'intrants critiques). 100 si le produit n'a aucun intrant critique."
+source: {nom: "Graphe de la filière (data/manual/edges.csv) et statuts BACI", url: null, licence: null, millesime: "2022-2024"}
+type: calcule
+depend_de: [aretes, statuts, etat_de_la_chaine]
+normalisation: {methode: direct}
+sens: plus_haut_plus_favorable
+poids_defaut: 4
+actif_par_defaut: true
+limites: >
+  Compte les intrants en nombre, sans les pondérer par leur poids dans le coût.
+  Dépend du graphe saisi à la main. « Disponible » signifie RCA ≥ 1, pas
+  « disponible en quantité et en qualité suffisantes pour l'aval ».

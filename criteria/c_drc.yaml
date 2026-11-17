@@ -1,0 +1,20 @@
+id: c_drc
+famille: cout
+libelle: Coût en ressources domestiques (DRC)
+definition: >
+  Combien de ressources nationales (travail, capital, énergie aux prix
+  intérieurs) il faut dépenser pour économiser un dollar d'importation. En
+  dessous de 1, produire localement coûte moins cher au pays qu'importer.
+formule: "DRC = (coût des facteurs domestiques en DZD / taux de change) / valeur ajoutée aux prix mondiaux en USD"
+source: {nom: "Aucune source publique au niveau HS6 pour l'Algérie", url: null, licence: null, millesime: null}
+type: calcule
+depend_de: [drc_inputs, taux_de_change]
+normalisation: {methode: bornes, min: 0, max: 2}
+sens: plus_bas_plus_favorable
+poids_defaut: 4
+actif_par_defaut: true
+limites: >
+  Donnée manquante en V1 pour tous les nœuds. Le calcul est en place et réagit
+  au taux de change choisi, mais il ne tourne que sur des valeurs de
+  démonstration, désactivées par défaut. Un vrai DRC demande des comptes
+  d'exploitation par procédé et des prix de référence.

@@ -1,0 +1,64 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "criteria",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "famille",
+   "libelle",
+   "definition",
+   "formule",
+   "source",
+   "type",
+   "normalisation",
+   "sens",
+   "poids_defaut",
+   "limites"
+  ],
+  "properties": {
+   "famille": {
+    "enum": [
+     "faisabilite",
+     "cout",
+     "valeur"
+    ]
+   },
+   "type": {
+    "enum": [
+     "donnee",
+     "calcule"
+    ]
+   },
+   "sens": {
+    "enum": [
+     "plus_haut_plus_favorable",
+     "plus_bas_plus_favorable"
+    ]
+   },
+   "poids_defaut": {
+    "type": "integer",
+    "minimum": 1,
+    "maximum": 5
+   },
+   "normalisation": {
+    "type": "object",
+    "required": [
+     "methode"
+    ],
+    "properties": {
+     "methode": {
+      "enum": [
+       "direct",
+       "minmax",
+       "logminmax",
+       "bornes",
+       "rang"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+id: f_capacites
+famille: faisabilite
+libelle: Capacités disponibles
+definition: >
+  Part des prérequis non marchands du produit (compétences, normes,
+  infrastructures, ressources) qui sont en place.
+formule: "100 × moyenne des états, avec disponible = 1, partielle = 0,5, manquante = 0, inconnue = 0. 100 si aucune capacité n'est requise."
+source: {nom: "data/manual/capacities.csv (sources publiques citées par ligne)", url: null, licence: null, millesime: 2026}
+type: calcule
+depend_de: [capacites]
+normalisation: {methode: direct}
+sens: plus_haut_plus_favorable
+poids_defaut: 3
+actif_par_defaut: true
+limites: >
+  Liste de capacités établie à dire d'expert, non exhaustive. Une capacité
+  d'état inconnu compte comme absente : le critère pénalise donc ce qui n'est
+  pas documenté. Quatre capacités sur treize sont d'état inconnu en V1.

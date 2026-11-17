@@ -1,0 +1,47 @@
+hs6,label,stage,stage_label,frontier,ressource,ressource_note,source,note
+271121,Gaz naturel (état gazeux),1,Matières premières,false,100,Ressource nationale exportée,HS 2012,Source d'éthane et de gaz de synthèse
+271112,Propane liquéfié,1,Matières premières,false,100,GPL national exporté,HS 2012,Charge de la déshydrogénation du propane
+271000,Produits pétroliers raffinés (dont naphta),1,Matières premières,false,100,Produit du raffinage national,HS 2012,BACI regroupe tout le 2710 sous ce code : le naphta n'y est pas isolé
+250100,Sel (chlorure de sodium),1,Matières premières,false,100,Gisements nationaux,HS 2012,Matière de l'électrolyse chlore-soude
+290121,Éthylène,2,Intermédiaires de base,false,100,Dérivé direct du gaz (éthane),HS 2012,
+290122,Propène (propylène),2,Intermédiaires de base,false,100,Dérivé direct du propane,HS 2012,
+290220,Benzène,2,Intermédiaires de base,false,100,Dérivé du naphta,HS 2012,
+290243,p-Xylène,2,Intermédiaires de base,false,100,Dérivé du naphta,HS 2012,
+280110,Chlore,2,Intermédiaires de base,false,100,Dérivé du sel et de l'électricité,HS 2012,
+290511,Méthanol,2,Intermédiaires de base,false,100,Dérivé direct du gaz,HS 2012,
+310210,Urée,2,Intermédiaires de base,false,100,Dérivé du gaz (ammoniac),HS 2012,Intrant des résines uréiques
+290321,Chlorure de vinyle,3,Monomères et intermédiaires,false,50,Dépend d'intermédiaires issus du gaz,HS 2012,
+290250,Styrène,3,Monomères et intermédiaires,false,50,Dépend d'intermédiaires issus du gaz,HS 2012,
+290531,Éthylène glycol,3,Monomères et intermédiaires,false,50,Dépend d'intermédiaires issus du gaz,HS 2012,
+291736,Acide téréphtalique et ses sels,3,Monomères et intermédiaires,false,50,Dépend d'intermédiaires issus du naphta,HS 2012,
+291211,Formaldéhyde (méthanal),3,Monomères et intermédiaires,false,50,Dépend du méthanol,HS 2012,
+390110,Polyéthylène basse densité (densité < 0.94),4,Polymères et additifs,false,50,Dépend de l'éthylène,HS 2012,
+390120,Polyéthylène haute densité (densité ≥ 0.94),4,Polymères et additifs,false,50,Dépend de l'éthylène,HS 2012,
+390210,Polypropylène,4,Polymères et additifs,false,50,Dépend du propène,HS 2012,
+390311,Polystyrène expansible,4,Polymères et additifs,false,50,Dépend du styrène,HS 2012,
+390319,Polystyrène (autre),4,Polymères et additifs,false,50,Dépend du styrène,HS 2012,
+390410,Poly(chlorure de vinyle) non mélangé,4,Polymères et additifs,false,50,Dépend du chlorure de vinyle,HS 2012,
+390760,Poly(éthylène téréphtalate) (PET),4,Polymères et additifs,false,50,Dépend de l'acide téréphtalique et du glycol,HS 2012,
+390910,Résines uréiques,4,Polymères et additifs,false,50,Dépend de l'urée et du formaldéhyde,HS 2012,
+291732,Orthophtalates de dioctyle (plastifiant),4,Polymères et additifs,true,0,Pas de ressource spécifique,HS 2012,Additif hors filière
+381230,Stabilisants et antioxydants pour plastiques,4,Polymères et additifs,true,0,Pas de ressource spécifique,HS 2012,Additif hors filière
+280300,Noir de carbone,4,Polymères et additifs,true,50,Dérivé d'hydrocarbures,HS 2012,Additif hors filière
+320611,Pigments à base de dioxyde de titane,4,Polymères et additifs,true,0,Pas de ressource spécifique,HS 2012,Additif hors filière
+391721,Tubes rigides en polyéthylène,5,Demi-produits,false,0,Transformation,HS 2012,
+391722,Tubes rigides en polypropylène,5,Demi-produits,false,0,Transformation,HS 2012,
+391723,Tubes rigides en PVC,5,Demi-produits,false,0,Transformation,HS 2012,
+392010,Films et feuilles en polyéthylène,5,Demi-produits,false,0,Transformation,HS 2012,
+392020,Films et feuilles en polypropylène,5,Demi-produits,false,0,Transformation,HS 2012,
+392043,Films et feuilles en PVC plastifié,5,Demi-produits,false,0,Transformation,HS 2012,
+392062,Films et feuilles en PET,5,Demi-produits,false,0,Transformation,HS 2012,
+392111,Plaques et feuilles alvéolaires en polystyrène,5,Demi-produits,false,0,Transformation,HS 2012,
+391740,Accessoires de tuyauterie en plastique,6,Produits finis,false,0,Transformation,HS 2012,
+391810,Revêtements de sols et de murs en PVC,6,Produits finis,false,0,Transformation,HS 2012,
+392310,"Boîtes, caisses et casiers en plastique",6,Produits finis,false,0,Transformation,HS 2012,
+392321,Sacs et sachets en polyéthylène,6,Produits finis,false,0,Transformation,HS 2012,
+392330,"Bouteilles, flacons et bonbonnes en plastique",6,Produits finis,false,0,Transformation,HS 2012,
+392350,"Bouchons, couvercles et capsules en plastique",6,Produits finis,false,0,Transformation,HS 2012,
+392410,Vaisselle et articles de table en plastique,6,Produits finis,false,0,Transformation,HS 2012,
+392510,Réservoirs et cuves en plastique (> 300 l),6,Produits finis,false,0,Transformation,HS 2012,
+392520,"Portes, fenêtres et cadres en plastique",6,Produits finis,false,0,Transformation,HS 2012,
+392690,Autres ouvrages en matières plastiques,6,Produits finis,false,0,Transformation,HS 2012,Code fourre-tout : contenu hétérogène

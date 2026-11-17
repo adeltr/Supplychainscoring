@@ -1,0 +1,42 @@
+# VALEURS DE DÉMONSTRATION. Aucune n'est une donnée. Écrites à la main pour faire tourner les critères
+# sans source publique (DRC, investissement, emplois). drc_dzd_par_usd_va = coût des facteurs domestiques
+# en DZD par dollar de valeur ajoutée aux prix mondiaux ; le DRC vaut cette valeur divisée par le taux de change.
+hs6,drc_dzd_par_usd_va,c_investissement,v_emplois
+250100,95,2,9
+290121,100,5,2
+290122,105,5,2
+290220,110,4,2
+290243,120,5,2
+280110,115,4,3
+290511,90,4,2
+290321,125,5,2
+290250,130,5,2
+290531,120,5,2
+291736,140,5,2
+291211,105,3,3
+390110,110,5,3
+390120,105,5,3
+390210,100,5,3
+390311,135,4,4
+390319,135,4,4
+390410,125,5,3
+390760,130,4,3
+390910,110,3,4
+391721,115,2,7
+391722,125,2,7
+391723,115,2,7
+392010,120,2,8
+392020,145,3,6
+392043,150,3,6
+392062,160,3,5
+392111,125,1,9
+391740,130,2,9
+391810,155,3,6
+392310,120,2,10
+392321,110,1,12
+392330,115,2,8
+392350,125,2,8
+392410,125,1,11
+392510,115,1,9
+392520,130,2,10
+392690,135,2,10

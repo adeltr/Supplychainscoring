@@ -1,0 +1,43 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "firms",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "name",
+   "products",
+   "proximity",
+   "sources",
+   "financial_capacity"
+  ],
+  "properties": {
+   "sources": {
+    "type": "array",
+    "minItems": 1
+   },
+   "proximity": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "object",
+     "required": [
+      "score",
+      "reasons"
+     ],
+     "properties": {
+      "score": {
+       "type": "number",
+       "minimum": 0,
+       "maximum": 100
+      },
+      "reasons": {
+       "type": "array",
+       "minItems": 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

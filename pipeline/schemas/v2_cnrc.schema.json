@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "CNRC - registre du commerce",
+ "description": "Une ligne par entreprise",
+ "x-confidentialite": "public pour l'essentiel",
+ "x-cle_de_jointure": "entreprise_id",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "entreprise_id",
+   "raison_sociale",
+   "codes_activite"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "entreprise_id": {
+    "type": "string",
+    "description": "Identifiant d'entreprise pseudonymisé (NIF ou numéro de registre haché)"
+   },
+   "raison_sociale": {
+    "type": "string"
+   },
+   "forme_juridique": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "codes_activite": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "wilaya": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "date_creation": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "format": "date"
+   },
+   "statut": {
+    "enum": [
+     "public",
+     "prive",
+     "mixte",
+     null
+    ]
+   }
+  }
+ }
+}

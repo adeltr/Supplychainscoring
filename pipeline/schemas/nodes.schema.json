@@ -1,0 +1,252 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "nodes",
+ "type": "array",
+ "minItems": 1,
+ "items": {
+  "type": "object",
+  "required": [
+   "hs6",
+   "label",
+   "stage",
+   "status",
+   "a_verifier",
+   "status_evidence",
+   "imports_usd",
+   "criteria",
+   "drc_inputs",
+   "frontier"
+  ],
+  "properties": {
+   "hs6": {
+    "type": "string",
+    "pattern": "^[0-9]{6}$"
+   },
+   "label": {
+    "type": "string",
+    "minLength": 1
+   },
+   "stage": {
+    "type": "integer",
+    "minimum": 1
+   },
+   "frontier": {
+    "type": "boolean"
+   },
+   "status": {
+    "enum": [
+     "couvert",
+     "partiel",
+     "manquant",
+     "absent"
+    ]
+   },
+   "a_verifier": {
+    "type": "boolean"
+   },
+   "imports_usd": {
+    "type": "object",
+    "required": [
+     "raw",
+     "quality"
+    ],
+    "properties": {
+     "raw": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "quality": {
+      "enum": [
+       "real",
+       "estimated",
+       "demo",
+       "missing"
+      ]
+     },
+     "source": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "year": {
+      "type": [
+       "string",
+       "integer",
+       "null"
+      ]
+     }
+    },
+    "if": {
+     "properties": {
+      "raw": {
+       "type": "null"
+      }
+     }
+    },
+    "then": {
+     "properties": {
+      "quality": {
+       "const": "missing"
+      }
+     }
+    },
+    "else": {
+     "properties": {
+      "quality": {
+       "enum": [
+        "real",
+        "estimated",
+        "demo"
+       ]
+      }
+     }
+    }
+   },
+   "tarif": {
+    "type": "object",
+    "required": [
+     "raw",
+     "quality"
+    ],
+    "properties": {
+     "raw": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "quality": {
+      "enum": [
+       "real",
+       "estimated",
+       "demo",
+       "missing"
+      ]
+     },
+     "source": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "year": {
+      "type": [
+       "string",
+       "integer",
+       "null"
+      ]
+     }
+    },
+    "if": {
+     "properties": {
+      "raw": {
+       "type": "null"
+      }
+     }
+    },
+    "then": {
+     "properties": {
+      "quality": {
+       "const": "missing"
+      }
+     }
+    },
+    "else": {
+     "properties": {
+      "quality": {
+       "enum": [
+        "real",
+        "estimated",
+        "demo"
+       ]
+      }
+     }
+    }
+   },
+   "criteria": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "object",
+     "required": [
+      "raw",
+      "quality"
+     ],
+     "properties": {
+      "raw": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "quality": {
+       "enum": [
+        "real",
+        "estimated",
+        "demo",
+        "missing"
+       ]
+      },
+      "source": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "year": {
+       "type": [
+        "string",
+        "integer",
+        "null"
+       ]
+      }
+     },
+     "if": {
+      "properties": {
+       "raw": {
+        "type": "null"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "quality": {
+        "const": "missing"
+       }
+      }
+     },
+     "else": {
+      "properties": {
+       "quality": {
+        "enum": [
+         "real",
+         "estimated",
+         "demo"
+        ]
+       }
+      }
+     }
+    }
+   },
+   "drc_inputs": {
+    "type": "object",
+    "required": [
+     "dzd_par_usd_va",
+     "quality"
+    ],
+    "properties": {
+     "quality": {
+      "enum": [
+       "real",
+       "estimated",
+       "demo",
+       "missing"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

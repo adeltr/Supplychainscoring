@@ -1,0 +1,19 @@
+id: f_proximite
+famille: faisabilite
+libelle: Proximité des savoir-faire
+definition: >
+  Mesure à quel point le produit ressemble à ce que l'Algérie exporte déjà avec
+  avantage comparatif. Plus la proximité est forte, plus les compétences
+  nécessaires existent déjà.
+formule: "1 − distance, où distance = part (pondérée par la proximité entre produits) des produits voisins que le pays n'exporte pas avec RCA ≥ 1"
+source: {nom: "Growth Lab, Atlas of Economic Complexity, International Trade Data (HS 12)", url: "https://doi.org/10.7910/DVN/YAVJDF", licence: "CC BY 4.0 (à vérifier sur la page du jeu de données)", millesime: 2024}
+type: donnee
+champ: f_proximite
+normalisation: {methode: minmax}
+sens: plus_haut_plus_favorable
+poids_defaut: 3
+actif_par_defaut: true
+limites: >
+  Publié au niveau HS4 : tous les HS6 d'une même position reçoivent la même
+  valeur. Calculé sur les exportations : dominé par les hydrocarbures dans le
+  cas algérien, et aveugle aux savoir-faire tournés vers le marché intérieur.

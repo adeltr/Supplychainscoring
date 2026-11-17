@@ -1,0 +1,18 @@
+id: f_ressources
+famille: faisabilite
+libelle: Ressources naturelles
+definition: >
+  Indique si la matière ou l'énergie qui fait l'essentiel du coût du produit
+  est une ressource algérienne.
+formule: "100 si le produit dérive directement d'une ressource nationale (gaz, propane, naphta, sel) ; 50 s'il en dérive par un intermédiaire ; 0 sinon"
+source: {nom: "Jugement documenté par nœud (data/manual/nodes.csv, colonnes ressource et ressource_note)", url: null, licence: null, millesime: 2026}
+type: donnee
+champ: f_ressources
+normalisation: {methode: direct}
+sens: plus_haut_plus_favorable
+poids_defaut: 2
+actif_par_defaut: true
+limites: >
+  Valeur estimée, à trois niveaux seulement. Ne dit rien du prix auquel la
+  ressource est cédée à l'industrie, ni de son coût d'opportunité à
+  l'exportation.

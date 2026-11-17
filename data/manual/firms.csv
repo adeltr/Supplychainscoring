@@ -1,0 +1,12 @@
+id,name,statut,products,imported_inputs,exports,projets,sources,note
+f01,Sonatrach (complexes CP1Z et CP2K),public,290511;291211;390910;390120,,290511,290121,S1;S2;S13,PEHD au CP2K : fonctionnement non confirmé ; vapocraqueur à l'étude
+f02,STEP (Sonatrach - TotalEnergies),mixte,,,,290122;390210,S3,Projet de polypropylène à Arzew ; mise en service non confirmée
+f03,Chiali Tubes (groupe Chiali),privé,391721;391723,390120;390410,391721,,S5;S6,Intrants déduits du procédé
+f04,Setif Pipe,privé,391721;391723;391740,390120;390410,,,S12,Intrants déduits du procédé
+f05,Cite Tubes,privé,391721;391723,390120;390410,,,S12,Intrants déduits du procédé
+f06,SGT Algérie,privé (capitaux étrangers),392330;392350,390760;390120,392330,,S7,Préformes classées avec les bouteilles (392330) ; intrants déduits du procédé
+f07,Général Plast (Akbou),privé,392330,390760,,,S8,Intrants déduits du procédé
+f08,Sofiplast,privé,392010,390110;390120,,,S9,Intrants déduits du procédé
+f09,Agro-Film,privé,392010;392321,390110;390120,,,S10,Intrants déduits du procédé
+f10,Pack Flow,privé,392010,390110,,,S15,Activité déduite d'une offre d'emploi : à confirmer
+f11,Groupe Souakri,privé,,,,291211,S11,Projet de formaldéhyde à Mostaganem

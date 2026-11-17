@@ -1,0 +1,21 @@
+# Décisions de cadrage. Voir docs/decisions.md pour les raisons.
+pays: {iso3: DZA, baci: 12, nom: Algérie}
+filiere_pilote: {id: plasturgie, nom: "Pétrochimie → plasturgie"}
+pays_reference: {iso3: EGY, baci: 818, nom: Égypte}
+nomenclature: HS2012          # BACI et Growth Lab sont alignés sur HS 2012
+annees_baci: [2022, 2023, 2024]
+annee_growthlab: 2024
+seuils:
+  rca_couvert: 1.0
+  exportations_partiel_usd: 1000000    # exportations annuelles qui attestent une production
+  importations_significatives_usd: 1000000
+taux_change:
+  officiel: {valeur: null, source: "Banque mondiale, PA.NUS.FCRF", annee: null}  # rempli par le pipeline
+  parallele: {valeur: null, source: null, date: null}   # à saisir par l'utilisateur : aucune source officielle
+donnee_manquante: renormaliser   # critère retiré pour le nœud, poids renormalisés
+intrants_critiques: nombre        # part en nombre d'intrants, non pondérée par la valeur
+demo: {autorise: true, actif_par_defaut: false}   # valeurs de démonstration : désactivées par défaut
+parametres:
+  taux_protection_pct: 30         # taux hypothétique utilisé pour chiffrer le surcoût aval
+  part_intrants_dans_valeur: 0.6  # hypothèse pour les importations évitées nettes
+  seuil_part_ue_pct: 50           # exposition à l'Accord d'association

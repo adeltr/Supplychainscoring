@@ -1,0 +1,21 @@
+id: c_surcout_aval
+famille: cout
+libelle: Surcoût pour l'aval en cas de protection
+definition: >
+  Ce que paieraient en plus, chaque année, les utilisateurs algériens du
+  produit (industries en aval, puis consommateurs) si on le protégeait par un
+  droit ou une restriction.
+formule: "surcoût = taux de protection hypothétique × importations annuelles du produit. Les utilisateurs en aval du graphe sont listés."
+source: {nom: "BACI (importations) ; WITS-TRAINS (droit appliqué actuel, pour information)", url: "https://wits.worldbank.org", licence: "Banque mondiale, conditions WITS", millesime: "2022-2024 ; 2023"}
+type: calcule
+depend_de: [importations, aretes, taux_protection_pct]
+normalisation: {methode: logminmax}
+sens: plus_bas_plus_favorable
+poids_defaut: 3
+actif_par_defaut: true
+limites: >
+  Borne haute de court terme : suppose que toute la demande importée paie le
+  surcoût. Ce n'est pas un taux de protection effective : il faudrait les
+  coefficients d'intrants de chaque utilisateur, absents en V1. La répartition
+  du surcoût entre utilisateurs n'est pas calculable sans données de douane par
+  entreprise (V2).

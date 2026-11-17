@@ -1,0 +1,6068 @@
+[
+ {
+  "hs6": "271121",
+  "label": "Gaz naturel (état gazeux)",
+  "stage": 1,
+  "stage_label": "Matières premières",
+  "frontier": false,
+  "note": "Source d'éthane et de gaz de synthèse",
+  "status": "couvert",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "RCA ≥ 1",
+   "rca": 25.932,
+   "rca_hors_27": null,
+   "rca_reference": 0.163,
+   "exports_usd": 15285664579,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 0.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": null,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "missing"
+   },
+   "part_afrique": {
+    "raw": null,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "missing"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.07199999999999995,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -2.33,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.0,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": null,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "missing"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Ressource nationale exportée",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 387929305.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "271112",
+  "label": "Propane liquéfié",
+  "stage": 1,
+  "stage_label": "Matières premières",
+  "frontier": false,
+  "note": "Charge de la déshydrogénation du propane",
+  "status": "couvert",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "RCA ≥ 1",
+   "rca": 11.297,
+   "rca_hors_27": null,
+   "rca_reference": 1.301,
+   "exports_usd": 1754838177,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 49587808.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Kazakhstan",
+    "part": 0.999
+   },
+   {
+    "pays": "China",
+    "part": 0.0
+   },
+   {
+    "pays": "France",
+    "part": 0.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.07199999999999995,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -2.33,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.0,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.1755050128957586,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : GPL national exporté",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 746346857.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "271000",
+  "label": "Produits pétroliers raffinés (dont naphta)",
+  "stage": 1,
+  "stage_label": "Matières premières",
+  "frontier": false,
+  "note": "BACI regroupe tout le 2710 sous ce code : le naphta n'y est pas isolé",
+  "status": "couvert",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "RCA ≥ 1",
+   "rca": 3.739,
+   "rca_hors_27": null,
+   "rca_reference": 2.683,
+   "exports_usd": 8648727616,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 162223153.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.17
+   },
+   {
+    "pays": "Uganda",
+    "part": 0.137
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.129
+   },
+   {
+    "pays": "France",
+    "part": 0.123
+   },
+   {
+    "pays": "Italy",
+    "part": 0.056
+   }
+  ],
+  "tarif": {
+   "raw": 0.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.547,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.157,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.05300000000000005,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -1.426,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.0,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.1459042853649708,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Produit du raffinage national",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 109331519748.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "250100",
+  "label": "Sel (chlorure de sodium)",
+  "stage": 1,
+  "stage_label": "Matières premières",
+  "frontier": false,
+  "note": "Matière de l'électrolyse chlore-soude",
+  "status": "partiel",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "exportations observées, sans autre source",
+   "rca": 0.114,
+   "rca_hors_27": 1.048,
+   "rca_reference": 13.28,
+   "exports_usd": 1242874,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 1187454.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 0.717
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.127
+   },
+   {
+    "pays": "Spain",
+    "part": 0.038
+   },
+   {
+    "pays": "Germany",
+    "part": 0.035
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.024
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.832,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.011,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.039000000000000035,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -1.09,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.11,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.017901408686249284,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Gisements nationaux",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 274101322.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 95.0,
+   "c_investissement": 2.0,
+   "v_emplois": 9.0
+  }
+ },
+ {
+  "hs6": "290121",
+  "label": "Éthylène",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "production locale incertaine : sources contradictoires",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.006,
+   "exports_usd": 0,
+   "production_locale": "incertain",
+   "sources": [
+    {
+     "id": "S2",
+     "titre": "MEES - Sonatrach to replace Skikda plastics complex (unité d'éthylène de 120 000 t/an jugée non compétitive ; fermeture annoncée)",
+     "url": "https://www.mees.com/2013/12/6/refining-petrochemicals/sonatrach-to-replace-skikda-plastics-complex/9154cc50-6df7-11e7-ac98-d3b564145f5c",
+     "date": "2013-12",
+     "nature": "presse spécialisée"
+    },
+    {
+     "id": "S13",
+     "titre": "Zawya - Chinese firm to prepare study for Algeria petrochem project (nouveau vapocraqueur à Skikda)",
+     "url": "https://www.zawya.com/en/projects/bri/chinese-firm-to-prepare-study-for-algeria-petrochem-project-cjt0dj17",
+     "date": "non datée",
+     "nature": "presse"
+    }
+   ],
+   "note": "Ancienne unité de Skikda (120 000 t/an) jugée non compétitive en 2013 ; étude d'un nouveau vapocraqueur"
+  },
+  "imports_usd": {
+   "raw": 23639482.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.75
+   },
+   {
+    "pays": "Italy",
+    "part": 0.13
+   },
+   {
+    "pays": "Spain",
+    "part": 0.073
+   },
+   {
+    "pays": "United Kingdom",
+    "part": 0.047
+   },
+   {
+    "pays": "Netherlands",
+    "part": 0.0
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.203,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03400000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.194,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.175,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.08216521168541809,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé direct du gaz (éthane)",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 20771501.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 100.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "290122",
+  "label": "Propène (propylène)",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "pas de production locale selon les sources citées",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.0,
+   "exports_usd": 0,
+   "production_locale": "non",
+   "sources": [
+    {
+     "id": "S3",
+     "titre": "Sonatrach - L'usine de polypropylène d'Arzew entrera en production en 2025 (PDH + PP 550 000 t/an)",
+     "url": "https://sonatrach.com/actualites/oran-lusine-de-production-de-polypropylene-darzew-entrera-en-production-en-2025",
+     "date": "non datée",
+     "nature": "communiqué d'entreprise"
+    }
+   ],
+   "note": "Projet STEP Arzew (déshydrogénation du propane) ; mise en service non confirmée"
+  },
+  "imports_usd": {
+   "raw": 0.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": null,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "missing"
+   },
+   "part_afrique": {
+    "raw": null,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "missing"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03400000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.194,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.175,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": null,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "missing"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé direct du propane",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 82193310.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 105.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "290220",
+  "label": "Benzène",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": null,
+  "status": "couvert",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "RCA ≥ 1",
+   "rca": 1.064,
+   "rca_hors_27": 8.633,
+   "rca_reference": 0.028,
+   "exports_usd": 27053372,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 781060.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Kazakhstan",
+    "part": 1.0
+   },
+   {
+    "pays": "France",
+    "part": 0.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.028000000000000025,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.537,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.214,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.0043543457196484996,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé du naphta",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 7758234.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 110.0,
+   "c_investissement": 4.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "290243",
+  "label": "p-Xylène",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "ni importé ni produit",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.0,
+   "exports_usd": 0,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 1439.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Tunisia",
+    "part": 1.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 1.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.028000000000000025,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.537,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.214,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 2.7291122720463775e-06,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé du naphta",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 4354948.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 120.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "280110",
+  "label": "Chlore",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "ni importé ni produit",
+   "rca": 0.089,
+   "rca_hors_27": 0.782,
+   "rca_reference": 7.491,
+   "exports_usd": 75142,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 232064.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 1.0
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 1.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.029000000000000026,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.901,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.063,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.008389717515089726,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé du sel et de l'électricité",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 29262542.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 115.0,
+   "c_investissement": 4.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "290511",
+  "label": "Méthanol",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.901,
+   "rca_hors_27": 7.968,
+   "rca_reference": 9.529,
+   "exports_usd": 26386967,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S1",
+     "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+     "url": "https://sonatrach.com/refining-petrochemicals/",
+     "date": "consulté 2026-11",
+     "nature": "site d'entreprise"
+    }
+   ],
+   "note": "Complexe CP1Z d'Arzew ; exportations observées dans BACI"
+  },
+  "imports_usd": {
+   "raw": 233947.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 0.85
+   },
+   {
+    "pays": "United Arab Emirates",
+    "part": 0.08
+   },
+   {
+    "pays": "Germany",
+    "part": 0.068
+   },
+   {
+    "pays": "Austria",
+    "part": 0.002
+   },
+   {
+    "pays": "Netherlands",
+    "part": 0.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.92,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.049000000000000044,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.567,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.018,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.0007020360940250234,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé direct du gaz",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 85883826.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 90.0,
+   "c_investissement": 4.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "310210",
+  "label": "Urée",
+  "stage": 2,
+  "stage_label": "Intermédiaires de base",
+  "frontier": false,
+  "note": "Intrant des résines uréiques",
+  "status": "couvert",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "RCA ≥ 1",
+   "rca": 22.477,
+   "rca_hors_27": 195.92,
+   "rca_reference": 36.12,
+   "exports_usd": 1561764371,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 884410.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Germany",
+    "part": 0.237
+   },
+   {
+    "pays": "France",
+    "part": 0.236
+   },
+   {
+    "pays": "Italy",
+    "part": 0.199
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.157
+   },
+   {
+    "pays": "Portugal",
+    "part": 0.106
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.972,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.05800000000000005,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -1.445,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.0,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.002765295504574512,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 100.0,
+    "source": "Jugement documenté : Dérivé du gaz (ammoniac)",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 2300709862.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "290321",
+  "label": "Chlorure de vinyle",
+  "stage": 3,
+  "stage_label": "Monomères et intermédiaires",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "ni importé ni produit",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.0,
+   "exports_usd": 0,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 1447.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "USA",
+    "part": 1.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.02100000000000002,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.815,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.289,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 8.395958637988484e-06,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend d'intermédiaires issus du gaz",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 400651.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 125.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "290250",
+  "label": "Styrène",
+  "stage": 3,
+  "stage_label": "Monomères et intermédiaires",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "ni importé ni produit",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.002,
+   "exports_usd": 0,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 810940.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Netherlands",
+    "part": 0.491
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.209
+   },
+   {
+    "pays": "Spain",
+    "part": 0.131
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.081
+   },
+   {
+    "pays": "India",
+    "part": 0.066
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.836,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.015,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.028000000000000025,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.537,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.214,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.0018033581557823429,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend d'intermédiaires issus du gaz",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 104341233.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 130.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "290531",
+  "label": "Éthylène glycol",
+  "stage": 3,
+  "stage_label": "Monomères et intermédiaires",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.0,
+   "rca_hors_27": 0.003,
+   "rca_reference": 0.044,
+   "exports_usd": 12326,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 6970154.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Netherlands",
+    "part": 0.426
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.387
+   },
+   {
+    "pays": "France",
+    "part": 0.079
+   },
+   {
+    "pays": "China",
+    "part": 0.056
+   },
+   {
+    "pays": "Spain",
+    "part": 0.026
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.924,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.006,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.049000000000000044,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.567,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": -0.018,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.011700562450677727,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend d'intermédiaires issus du gaz",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 278061008.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 120.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "291736",
+  "label": "Acide téréphtalique et ses sels",
+  "stage": 3,
+  "stage_label": "Monomères et intermédiaires",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "ni importé ni produit",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.067,
+   "exports_usd": 0,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 2797.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 1.0
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.020000000000000018,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.932,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.282,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 6.157877118179667e-06,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend d'intermédiaires issus du naphta",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 448866872.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 140.0,
+   "c_investissement": 5.0,
+   "v_emplois": 2.0
+  }
+ },
+ {
+  "hs6": "291211",
+  "label": "Formaldéhyde (méthanal)",
+  "stage": 3,
+  "stage_label": "Monomères et intermédiaires",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 2.932,
+   "exports_usd": 0,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S1",
+     "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+     "url": "https://sonatrach.com/refining-petrochemicals/",
+     "date": "consulté 2026-11",
+     "nature": "site d'entreprise"
+    }
+   ],
+   "note": "Formol produit au CP1Z ; projet Souakri annoncé à Mostaganem (S11)"
+  },
+  "imports_usd": {
+   "raw": 15839.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 0.677
+   },
+   {
+    "pays": "Italy",
+    "part": 0.323
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 1.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.014000000000000012,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.988,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.495,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.0006935546873731381,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend du méthanol",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 13500752.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 105.0,
+   "c_investissement": 3.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "390110",
+  "label": "Polyéthylène basse densité (densité < 0.94)",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "pas de production locale selon les sources citées",
+   "rca": 0.0,
+   "rca_hors_27": 0.002,
+   "rca_reference": 1.65,
+   "exports_usd": 11522,
+   "production_locale": "non",
+   "sources": [
+    {
+     "id": "S4",
+     "titre": "Maghreb Emergent - Matière première plastique : déclaration du ministre sur l'absence de production nationale",
+     "url": "https://maghrebemergent.news/fr/matiere-premiere-plastique-rezig-importation-pme/",
+     "date": "non datée",
+     "nature": "presse"
+    }
+   ],
+   "note": "Déclaration ministérielle : pas de production nationale de résines"
+  },
+  "imports_usd": {
+   "raw": 199373064.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.547
+   },
+   {
+    "pays": "USA",
+    "part": 0.068
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.058
+   },
+   {
+    "pays": "France",
+    "part": 0.05
+   },
+   {
+    "pays": "Sweden",
+    "part": 0.049
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.188,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.013,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03600000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.184,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.136,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.3743763126216704,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend de l'éthylène",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 1840221408.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 110.0,
+   "c_investissement": 5.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "390120",
+  "label": "Polyéthylène haute densité (densité ≥ 0.94)",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "production locale incertaine : sources contradictoires",
+   "rca": 0.009,
+   "rca_hors_27": 0.087,
+   "rca_reference": 3.204,
+   "exports_usd": 609975,
+   "production_locale": "incertain",
+   "sources": [
+    {
+     "id": "S1",
+     "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+     "url": "https://sonatrach.com/refining-petrochemicals/",
+     "date": "consulté 2026-11",
+     "nature": "site d'entreprise"
+    },
+    {
+     "id": "S2",
+     "titre": "MEES - Sonatrach to replace Skikda plastics complex (unité d'éthylène de 120 000 t/an jugée non compétitive ; fermeture annoncée)",
+     "url": "https://www.mees.com/2013/12/6/refining-petrochemicals/sonatrach-to-replace-skikda-plastics-complex/9154cc50-6df7-11e7-ac98-d3b564145f5c",
+     "date": "2013-12",
+     "nature": "presse spécialisée"
+    },
+    {
+     "id": "S4",
+     "titre": "Maghreb Emergent - Matière première plastique : déclaration du ministre sur l'absence de production nationale",
+     "url": "https://maghrebemergent.news/fr/matiere-premiere-plastique-rezig-importation-pme/",
+     "date": "non datée",
+     "nature": "presse"
+    }
+   ],
+   "note": "CP2K Skikda (130 000 t/an) listé par Sonatrach ; fonctionnement non confirmé ; le ministre déclare l'absence de production nationale de résines"
+  },
+  "imports_usd": {
+   "raw": 291175455.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.692
+   },
+   {
+    "pays": "USA",
+    "part": 0.086
+   },
+   {
+    "pays": "Italy",
+    "part": 0.068
+   },
+   {
+    "pays": "France",
+    "part": 0.028
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.026
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.137,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.005,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03600000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.184,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.136,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.6507943982495028,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend de l'éthylène",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 2555878356.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 105.0,
+   "c_investissement": 5.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "390210",
+  "label": "Polypropylène",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "pas de production locale selon les sources citées",
+   "rca": 0.012,
+   "rca_hors_27": 0.098,
+   "rca_reference": 5.345,
+   "exports_usd": 854755,
+   "production_locale": "non",
+   "sources": [
+    {
+     "id": "S3",
+     "titre": "Sonatrach - L'usine de polypropylène d'Arzew entrera en production en 2025 (PDH + PP 550 000 t/an)",
+     "url": "https://sonatrach.com/actualites/oran-lusine-de-production-de-polypropylene-darzew-entrera-en-production-en-2025",
+     "date": "non datée",
+     "nature": "communiqué d'entreprise"
+    }
+   ],
+   "note": "Projet STEP Arzew (550 000 t/an) ; mise en service non confirmée"
+  },
+  "imports_usd": {
+   "raw": 208492073.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.87
+   },
+   {
+    "pays": "Rep. of Korea",
+    "part": 0.023
+   },
+   {
+    "pays": "China",
+    "part": 0.019
+   },
+   {
+    "pays": "France",
+    "part": 0.019
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.016
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.038,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.002,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.21,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.165,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.628466481745674,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend du propène",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 2169572322.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 100.0,
+   "c_investissement": 5.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "390311",
+  "label": "Polystyrène expansible",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.699,
+   "exports_usd": 290,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 28802929.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.398
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.222
+   },
+   {
+    "pays": "Other Asia, nes",
+    "part": 0.203
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.153
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.011
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.015,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.005,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.026000000000000023,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.616,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.246,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.20385401034705397,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend du styrène",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 113810480.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 135.0,
+   "c_investissement": 4.0,
+   "v_emplois": 4.0
+  }
+ },
+ {
+  "hs6": "390319",
+  "label": "Polystyrène (autre)",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.001,
+   "rca_hors_27": 0.008,
+   "rca_reference": 1.447,
+   "exports_usd": 12466,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 27843576.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 0.424
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.171
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.128
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.107
+   },
+   {
+    "pays": "China",
+    "part": 0.086
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.534,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.002,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.026000000000000023,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.616,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.246,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.24039279212511044,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend du styrène",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 261575702.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 135.0,
+   "c_investissement": 4.0,
+   "v_emplois": 4.0
+  }
+ },
+ {
+  "hs6": "390410",
+  "label": "Poly(chlorure de vinyle) non mélangé",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "pas de production locale selon les sources citées",
+   "rca": 0.0,
+   "rca_hors_27": 0.003,
+   "rca_reference": 6.818,
+   "exports_usd": 7337,
+   "production_locale": "non",
+   "sources": [
+    {
+     "id": "S4",
+     "titre": "Maghreb Emergent - Matière première plastique : déclaration du ministre sur l'absence de production nationale",
+     "url": "https://maghrebemergent.news/fr/matiere-premiere-plastique-rezig-importation-pme/",
+     "date": "non datée",
+     "nature": "presse"
+    }
+   ],
+   "note": "Déclaration ministérielle : pas de production nationale de résines"
+  },
+  "imports_usd": {
+   "raw": 139680129.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "USA",
+    "part": 0.403
+   },
+   {
+    "pays": "France",
+    "part": 0.342
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.072
+   },
+   {
+    "pays": "China",
+    "part": 0.039
+   },
+   {
+    "pays": "Germany",
+    "part": 0.025
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.484,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.014,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.02100000000000002,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.292,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.305,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.3766969038587023,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend du chlorure de vinyle",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 997287339.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 125.0,
+   "c_investissement": 5.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "390760",
+  "label": "Poly(éthylène téréphtalate) (PET)",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "production locale incertaine : sources contradictoires",
+   "rca": 0.356,
+   "rca_hors_27": 3.18,
+   "rca_reference": 9.354,
+   "exports_usd": 14976074,
+   "production_locale": "incertain",
+   "sources": [
+    {
+     "id": "S4",
+     "titre": "Maghreb Emergent - Matière première plastique : déclaration du ministre sur l'absence de production nationale",
+     "url": "https://maghrebemergent.news/fr/matiere-premiere-plastique-rezig-importation-pme/",
+     "date": "non datée",
+     "nature": "presse"
+    },
+    {
+     "id": "S7",
+     "titre": "Algérie 360 - SGT ouvre une deuxième usine en Algérie (préformes PET et bouchons ; surplus exporté)",
+     "url": "https://www.algerie360.com/specialisee-dans-la-fabrication-de-preformes-et-de-bouchons-en-polyethylenelentreprise-francaise-sgt-ouvre-une-deuxieme-usine-en-algerie/",
+     "date": "vers 2012-2013",
+     "nature": "presse"
+    }
+   ],
+   "note": "Exportations observées dans BACI (15 M USD) mais aucune production de résine confirmée ; possible confusion avec des préformes ou du PET recyclé"
+  },
+  "imports_usd": {
+   "raw": 327614692.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.54
+   },
+   {
+    "pays": "Egypt",
+    "part": 0.165
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.135
+   },
+   {
+    "pays": "Oman",
+    "part": 0.082
+   },
+   {
+    "pays": "India",
+    "part": 0.045
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2016,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.017,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.165,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.025000000000000022,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.288,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.288,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.7245085808583023,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend de l'acide téréphtalique et du glycol",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 1502621875.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 130.0,
+   "c_investissement": 4.0,
+   "v_emplois": 3.0
+  }
+ },
+ {
+  "hs6": "390910",
+  "label": "Résines uréiques",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 8.971,
+   "exports_usd": 0,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S1",
+     "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+     "url": "https://sonatrach.com/refining-petrochemicals/",
+     "date": "consulté 2026-11",
+     "nature": "site d'entreprise"
+    }
+   ],
+   "note": "Résines produites au CP1Z ; volumes non publiés"
+  },
+  "imports_usd": {
+   "raw": 18775423.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Egypt",
+    "part": 0.805
+   },
+   {
+    "pays": "China",
+    "part": 0.118
+   },
+   {
+    "pays": "Tunisia",
+    "part": 0.073
+   },
+   {
+    "pays": "Italy",
+    "part": 0.001
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.001
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.003,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.878,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.019000000000000017,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.932,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.411,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.535581182642555,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dépend de l'urée et du formaldéhyde",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 85386941.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 110.0,
+   "c_investissement": 3.0,
+   "v_emplois": 4.0
+  }
+ },
+ {
+  "hs6": "291732",
+  "label": "Orthophtalates de dioctyle (plastifiant)",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": true,
+  "note": "Additif hors filière",
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 0.315,
+   "exports_usd": 0,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 14435946.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.408
+   },
+   {
+    "pays": "Viet Nam",
+    "part": 0.246
+   },
+   {
+    "pays": "China",
+    "part": 0.163
+   },
+   {
+    "pays": "Tunisia",
+    "part": 0.079
+   },
+   {
+    "pays": "Rep. of Korea",
+    "part": 0.04
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.0,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.079,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.020000000000000018,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.932,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.282,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.3750328478618063,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Pas de ressource spécifique",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 104017051.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "381230",
+  "label": "Stabilisants et antioxydants pour plastiques",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": true,
+  "note": "Additif hors filière",
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.0,
+   "rca_hors_27": 0.002,
+   "rca_reference": 0.087,
+   "exports_usd": 1921,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 16677516.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.639
+   },
+   {
+    "pays": "China",
+    "part": 0.139
+   },
+   {
+    "pays": "Italy",
+    "part": 0.118
+   },
+   {
+    "pays": "France",
+    "part": 0.031
+   },
+   {
+    "pays": "Portugal",
+    "part": 0.018
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2016,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.2,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.006,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.017000000000000015,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.693,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.403,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.13598401578021338,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Pas de ressource spécifique",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 126357696.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "280300",
+  "label": "Noir de carbone",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": true,
+  "note": "Additif hors filière",
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.0,
+   "rca_hors_27": 0.0,
+   "rca_reference": 13.04,
+   "exports_usd": 0,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 3029351.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.495
+   },
+   {
+    "pays": "Lithuania",
+    "part": 0.125
+   },
+   {
+    "pays": "Germany",
+    "part": 0.121
+   },
+   {
+    "pays": "India",
+    "part": 0.099
+   },
+   {
+    "pays": "China",
+    "part": 0.066
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.311,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.026,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.025000000000000022,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.131,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.17,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.014890186681239391,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 50.0,
+    "source": "Jugement documenté : Dérivé d'hydrocarbures",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 52030736.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "320611",
+  "label": "Pigments à base de dioxyde de titane",
+  "stage": 4,
+  "stage_label": "Polymères et additifs",
+  "frontier": true,
+  "note": "Additif hors filière",
+  "status": "manquant",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "importations seules",
+   "rca": 0.001,
+   "rca_hors_27": 0.006,
+   "rca_reference": 0.012,
+   "exports_usd": 20328,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 34362541.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.689
+   },
+   {
+    "pays": "Slovenia",
+    "part": 0.085
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.057
+   },
+   {
+    "pays": "United Kingdom",
+    "part": 0.055
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.029
+   }
+  ],
+  "tarif": {
+   "raw": 5.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.143,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.019,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.020000000000000018,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.62,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.242,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.10835430676205625,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Pas de ressource spécifique",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 403230200.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": null
+ },
+ {
+  "hs6": "391721",
+  "label": "Tubes rigides en polyéthylène",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.194,
+   "rca_hors_27": 1.754,
+   "rca_reference": 0.66,
+   "exports_usd": 1188392,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S5",
+     "titre": "Algérie Eco - Sidi Bel Abbès : exportation de tubes de polyéthylène vers la Mauritanie (groupe Chiali)",
+     "url": "https://algerie-eco.com/2024/08/22/sidi-bel-abbes-exportation-de-tubes-de-polyethylene-et-de-rond-a-beton-vers-la-mauritanie/",
+     "date": "2024-08",
+     "nature": "presse"
+    },
+    {
+     "id": "S6",
+     "titre": "Novojob - fiche Spa Chiali Tube (usines PVC et PE)",
+     "url": "https://www.novojob.com/entreprise/spa-chiali-tube/presentation",
+     "date": "non datée",
+     "nature": "annuaire"
+    },
+    {
+     "id": "S12",
+     "titre": "Issuu - Industrie Algérie n°2 (Setif Pipe ; Cite Tubes : tubes PEHD et PVC ; accessoires)",
+     "url": "https://issuu.com/maghrebex/docs/industrie-algerie-2/88",
+     "date": "non datée",
+     "nature": "revue professionnelle"
+    }
+   ],
+   "note": "Chiali Tubes ; Setif Pipe ; Cite Tubes"
+  },
+  "imports_usd": {
+   "raw": 16906584.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Norway",
+    "part": 0.606
+   },
+   {
+    "pays": "Italy",
+    "part": 0.275
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.091
+   },
+   {
+    "pays": "China",
+    "part": 0.012
+   },
+   {
+    "pays": "Germany",
+    "part": 0.005
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.286,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.002,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.144,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.094,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.4749543371583109,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 252618169.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 115.0,
+   "c_investissement": 2.0,
+   "v_emplois": 7.0
+  }
+ },
+ {
+  "hs6": "391722",
+  "label": "Tubes rigides en polypropylène",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.001,
+   "rca_hors_27": 0.01,
+   "rca_reference": 1.844,
+   "exports_usd": 2860,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 3348584.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.412
+   },
+   {
+    "pays": "Germany",
+    "part": 0.338
+   },
+   {
+    "pays": "Italy",
+    "part": 0.079
+   },
+   {
+    "pays": "France",
+    "part": 0.064
+   },
+   {
+    "pays": "Egypt",
+    "part": 0.05
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.525,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.052,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.144,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.094,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.11174440815275195,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 74646466.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 125.0,
+   "c_investissement": 2.0,
+   "v_emplois": 7.0
+  }
+ },
+ {
+  "hs6": "391723",
+  "label": "Tubes rigides en PVC",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.021,
+   "rca_hors_27": 0.192,
+   "rca_reference": 11.438,
+   "exports_usd": 96005,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S6",
+     "titre": "Novojob - fiche Spa Chiali Tube (usines PVC et PE)",
+     "url": "https://www.novojob.com/entreprise/spa-chiali-tube/presentation",
+     "date": "non datée",
+     "nature": "annuaire"
+    },
+    {
+     "id": "S12",
+     "titre": "Issuu - Industrie Algérie n°2 (Setif Pipe ; Cite Tubes : tubes PEHD et PVC ; accessoires)",
+     "url": "https://issuu.com/maghrebex/docs/industrie-algerie-2/88",
+     "date": "non datée",
+     "nature": "revue professionnelle"
+    }
+   ],
+   "note": "Chiali Tubes ; Setif Pipe ; Cite Tubes"
+  },
+  "imports_usd": {
+   "raw": 4825992.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "India",
+    "part": 0.702
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.093
+   },
+   {
+    "pays": "China",
+    "part": 0.054
+   },
+   {
+    "pays": "Italy",
+    "part": 0.045
+   },
+   {
+    "pays": "United Kingdom",
+    "part": 0.025
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.084,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.012,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.144,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.094,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.11671068543228542,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 181592127.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 115.0,
+   "c_investissement": 2.0,
+   "v_emplois": 7.0
+  }
+ },
+ {
+  "hs6": "392010",
+  "label": "Films et feuilles en polyéthylène",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.064,
+   "rca_hors_27": 0.576,
+   "rca_reference": 2.098,
+   "exports_usd": 2762675,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S9",
+     "titre": "Macplas - Encore of Colines in Algeria (lignes de film soufflé livrées à Sofiplast)",
+     "url": "https://www.macplas.it/en/technology/extrusion/encore-colines-algeria",
+     "date": "non datée",
+     "nature": "presse spécialisée"
+    },
+    {
+     "id": "S10",
+     "titre": "Djazagro - Agro-Film (extrusion de films et emballages souples)",
+     "url": "https://www.djazagro.com/en/news-trends/News/Agro-film",
+     "date": "non datée",
+     "nature": "salon professionnel"
+    },
+    {
+     "id": "S15",
+     "titre": "Emploitic - Sarl Pack Flow (offre d'emploi : extrusion de film soufflé et coulé)",
+     "url": "https://emploitic.com/entreprises/sarl-pack-flow/offres-d-emploi/services/operateur-sur-machine-ycwqa",
+     "date": "non datée",
+     "nature": "offre d'emploi"
+    }
+   ],
+   "note": "Sofiplast ; Agro-Film ; Pack Flow"
+  },
+  "imports_usd": {
+   "raw": 53615768.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Italy",
+    "part": 0.321
+   },
+   {
+    "pays": "France",
+    "part": 0.178
+   },
+   {
+    "pays": "China",
+    "part": 0.112
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.1
+   },
+   {
+    "pays": "Tunisia",
+    "part": 0.068
+   }
+  ],
+  "tarif": {
+   "raw": 13.5714282989502,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.587,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.079,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.071,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.146,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.3135546514858732,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 634208332.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 120.0,
+   "c_investissement": 2.0,
+   "v_emplois": 8.0
+  }
+ },
+ {
+  "hs6": "392020",
+  "label": "Films et feuilles en polypropylène",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.002,
+   "rca_hors_27": 0.013,
+   "rca_reference": 7.895,
+   "exports_usd": 57577,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 87957943.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.632
+   },
+   {
+    "pays": "Italy",
+    "part": 0.111
+   },
+   {
+    "pays": "Egypt",
+    "part": 0.053
+   },
+   {
+    "pays": "China",
+    "part": 0.036
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.032
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.217,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.057,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.071,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.146,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.7076399273250102,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 602144441.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 145.0,
+   "c_investissement": 3.0,
+   "v_emplois": 6.0
+  }
+ },
+ {
+  "hs6": "392043",
+  "label": "Films et feuilles en PVC plastifié",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.002,
+   "rca_hors_27": 0.023,
+   "rca_reference": 0.235,
+   "exports_usd": 14574,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 16614184.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.372
+   },
+   {
+    "pays": "Germany",
+    "part": 0.195
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.153
+   },
+   {
+    "pays": "France",
+    "part": 0.134
+   },
+   {
+    "pays": "Italy",
+    "part": 0.036
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.442,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.004,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.071,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.146,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.1427623499605602,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 90747706.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 150.0,
+   "c_investissement": 3.0,
+   "v_emplois": 6.0
+  }
+ },
+ {
+  "hs6": "392062",
+  "label": "Films et feuilles en PET",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.003,
+   "rca_hors_27": 0.029,
+   "rca_reference": 1.485,
+   "exports_usd": 64015,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 16016549.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Germany",
+    "part": 0.246
+   },
+   {
+    "pays": "China",
+    "part": 0.178
+   },
+   {
+    "pays": "United Arab Emirates",
+    "part": 0.138
+   },
+   {
+    "pays": "Tunisia",
+    "part": 0.123
+   },
+   {
+    "pays": "France",
+    "part": 0.083
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.393,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.123,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.071,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.146,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.09467083426577239,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 162772250.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 160.0,
+   "c_investissement": 3.0,
+   "v_emplois": 5.0
+  }
+ },
+ {
+  "hs6": "392111",
+  "label": "Plaques et feuilles alvéolaires en polystyrène",
+  "stage": 5,
+  "stage_label": "Demi-produits",
+  "frontier": false,
+  "note": null,
+  "status": "absent",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "ni importé ni produit",
+   "rca": 0.001,
+   "rca_hors_27": 0.01,
+   "rca_reference": 0.692,
+   "exports_usd": 3642,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 660086.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.5
+   },
+   {
+    "pays": "France",
+    "part": 0.197
+   },
+   {
+    "pays": "Italy",
+    "part": 0.159
+   },
+   {
+    "pays": "China",
+    "part": 0.073
+   },
+   {
+    "pays": "Germany",
+    "part": 0.026
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.42,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.007,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.029000000000000026,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.442,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.192,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.02028471246218263,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 26128992.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 125.0,
+   "c_investissement": 1.0,
+   "v_emplois": 9.0
+  }
+ },
+ {
+  "hs6": "391740",
+  "label": "Accessoires de tuyauterie en plastique",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.014,
+   "rca_hors_27": 0.127,
+   "rca_reference": 3.539,
+   "exports_usd": 289764,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S12",
+     "titre": "Issuu - Industrie Algérie n°2 (Setif Pipe ; Cite Tubes : tubes PEHD et PVC ; accessoires)",
+     "url": "https://issuu.com/maghrebex/docs/industrie-algerie-2/88",
+     "date": "non datée",
+     "nature": "revue professionnelle"
+    }
+   ],
+   "note": "Setif Pipe (accessoires)"
+  },
+  "imports_usd": {
+   "raw": 27982426.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.226
+   },
+   {
+    "pays": "Italy",
+    "part": 0.212
+   },
+   {
+    "pays": "China",
+    "part": 0.204
+   },
+   {
+    "pays": "Egypt",
+    "part": 0.107
+   },
+   {
+    "pays": "Switzerland",
+    "part": 0.073
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.313,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.112,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.144,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.094,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.17672573887149345,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 385175163.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 130.0,
+   "c_investissement": 2.0,
+   "v_emplois": 9.0
+  }
+ },
+ {
+  "hs6": "391810",
+  "label": "Revêtements de sols et de murs en PVC",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.002,
+   "rca_hors_27": 0.015,
+   "rca_reference": 0.068,
+   "exports_usd": 41358,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 11609715.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.388
+   },
+   {
+    "pays": "Belgium",
+    "part": 0.213
+   },
+   {
+    "pays": "France",
+    "part": 0.133
+   },
+   {
+    "pays": "Poland",
+    "part": 0.116
+   },
+   {
+    "pays": "Germany",
+    "part": 0.042
+   }
+  ],
+  "tarif": {
+   "raw": 15.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.58,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.003,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.013000000000000012,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.795,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.314,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.036194797733742394,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 197406941.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 155.0,
+   "c_investissement": 3.0,
+   "v_emplois": 6.0
+  }
+ },
+ {
+  "hs6": "392310",
+  "label": "Boîtes, caisses et casiers en plastique",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.022,
+   "rca_hors_27": 0.199,
+   "rca_reference": 0.865,
+   "exports_usd": 698388,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 6568424.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.334
+   },
+   {
+    "pays": "France",
+    "part": 0.162
+   },
+   {
+    "pays": "Italy",
+    "part": 0.144
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.124
+   },
+   {
+    "pays": "Lebanon",
+    "part": 0.067
+   }
+  ],
+  "tarif": {
+   "raw": 30.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.369,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.077,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.415,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.037,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.04559039920396861,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 341316929.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 120.0,
+   "c_investissement": 2.0,
+   "v_emplois": 10.0
+  }
+ },
+ {
+  "hs6": "392321",
+  "label": "Sacs et sachets en polyéthylène",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.003,
+   "rca_hors_27": 0.021,
+   "rca_reference": 0.352,
+   "exports_usd": 94661,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S10",
+     "titre": "Djazagro - Agro-Film (extrusion de films et emballages souples)",
+     "url": "https://www.djazagro.com/en/news-trends/News/Agro-film",
+     "date": "non datée",
+     "nature": "salon professionnel"
+    }
+   ],
+   "note": "Agro-Film (sacs)"
+  },
+  "imports_usd": {
+   "raw": 3878605.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.329
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.232
+   },
+   {
+    "pays": "Egypt",
+    "part": 0.15
+   },
+   {
+    "pays": "Jordan",
+    "part": 0.088
+   },
+   {
+    "pays": "France",
+    "part": 0.061
+   }
+  ],
+  "tarif": {
+   "raw": 30.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.155,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.151,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.415,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.037,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.07949398907671279,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 350917418.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 110.0,
+   "c_investissement": 1.0,
+   "v_emplois": 12.0
+  }
+ },
+ {
+  "hs6": "392330",
+  "label": "Bouteilles, flacons et bonbonnes en plastique",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.133,
+   "rca_hors_27": 1.135,
+   "rca_reference": 1.907,
+   "exports_usd": 3577706,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S7",
+     "titre": "Algérie 360 - SGT ouvre une deuxième usine en Algérie (préformes PET et bouchons ; surplus exporté)",
+     "url": "https://www.algerie360.com/specialisee-dans-la-fabrication-de-preformes-et-de-bouchons-en-polyethylenelentreprise-francaise-sgt-ouvre-une-deuxieme-usine-en-algerie/",
+     "date": "vers 2012-2013",
+     "nature": "presse"
+    },
+    {
+     "id": "S8",
+     "titre": "Université de Béjaïa - mémoire sur la qualité des préformes de Général Plast (Akbou)",
+     "url": "https://www.univ-bejaia.dz/jspui/bitstream/123456789/27001/1/000189.pdf",
+     "date": "2024-2025",
+     "nature": "mémoire universitaire"
+    }
+   ],
+   "note": "SGT Algérie ; Général Plast (préformes et bouteilles)"
+  },
+  "imports_usd": {
+   "raw": 26761393.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 0.263
+   },
+   {
+    "pays": "China",
+    "part": 0.236
+   },
+   {
+    "pays": "Other Asia, nes",
+    "part": 0.122
+   },
+   {
+    "pays": "Italy",
+    "part": 0.121
+   },
+   {
+    "pays": "Poland",
+    "part": 0.074
+   }
+  ],
+  "tarif": {
+   "raw": 30.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.517,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.063,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.415,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.037,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.38306785730123355,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 458505156.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 115.0,
+   "c_investissement": 2.0,
+   "v_emplois": 8.0
+  }
+ },
+ {
+  "hs6": "392350",
+  "label": "Bouchons, couvercles et capsules en plastique",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "partiel",
+  "a_verifier": false,
+  "status_evidence": {
+   "regle": "production locale attestée par une source publique",
+   "rca": 0.039,
+   "rca_hors_27": 0.337,
+   "rca_reference": 1.026,
+   "exports_usd": 1003868,
+   "production_locale": "oui",
+   "sources": [
+    {
+     "id": "S7",
+     "titre": "Algérie 360 - SGT ouvre une deuxième usine en Algérie (préformes PET et bouchons ; surplus exporté)",
+     "url": "https://www.algerie360.com/specialisee-dans-la-fabrication-de-preformes-et-de-bouchons-en-polyethylenelentreprise-francaise-sgt-ouvre-une-deuxieme-usine-en-algerie/",
+     "date": "vers 2012-2013",
+     "nature": "presse"
+    }
+   ],
+   "note": "SGT Algérie (bouchons)"
+  },
+  "imports_usd": {
+   "raw": 48222005.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "France",
+    "part": 0.206
+   },
+   {
+    "pays": "China",
+    "part": 0.183
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.135
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.123
+   },
+   {
+    "pays": "Italy",
+    "part": 0.1
+   }
+  ],
+  "tarif": {
+   "raw": 23.75,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.473,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.047,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.03200000000000003,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.415,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.037,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.6761269781897405,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 361840584.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 125.0,
+   "c_investissement": 2.0,
+   "v_emplois": 8.0
+  }
+ },
+ {
+  "hs6": "392410",
+  "label": "Vaisselle et articles de table en plastique",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.004,
+   "rca_hors_27": 0.033,
+   "rca_reference": 0.625,
+   "exports_usd": 124311,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 11773377.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.775
+   },
+   {
+    "pays": "Egypt",
+    "part": 0.109
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.052
+   },
+   {
+    "pays": "Saudi Arabia",
+    "part": 0.018
+   },
+   {
+    "pays": "France",
+    "part": 0.016
+   }
+  ],
+  "tarif": {
+   "raw": 30.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.026,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.11,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.026000000000000023,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": -0.554,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.062,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.20263843798926612,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 521391848.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 125.0,
+   "c_investissement": 1.0,
+   "v_emplois": 11.0
+  }
+ },
+ {
+  "hs6": "392510",
+  "label": "Réservoirs et cuves en plastique (> 300 l)",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.08,
+   "rca_hors_27": 0.747,
+   "rca_reference": 0.3,
+   "exports_usd": 225361,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 1411610.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "Tunisia",
+    "part": 0.332
+   },
+   {
+    "pays": "Italy",
+    "part": 0.275
+   },
+   {
+    "pays": "France",
+    "part": 0.183
+   },
+   {
+    "pays": "China",
+    "part": 0.071
+   },
+   {
+    "pays": "United Arab Emirates",
+    "part": 0.064
+   }
+  ],
+  "tarif": {
+   "raw": 30.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.465,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.332,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.031000000000000028,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.143,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.101,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.042014508094351026,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 50603241.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 115.0,
+   "c_investissement": 1.0,
+   "v_emplois": 9.0
+  }
+ },
+ {
+  "hs6": "392520",
+  "label": "Portes, fenêtres et cadres en plastique",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": null,
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.001,
+   "rca_hors_27": 0.012,
+   "rca_reference": 0.116,
+   "exports_usd": 15607,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 2009436.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.364
+   },
+   {
+    "pays": "France",
+    "part": 0.33
+   },
+   {
+    "pays": "China",
+    "part": 0.186
+   },
+   {
+    "pays": "Germany",
+    "part": 0.05
+   },
+   {
+    "pays": "Portugal",
+    "part": 0.031
+   }
+  ],
+  "tarif": {
+   "raw": 30.0,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.429,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.002,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.031000000000000028,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.143,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.101,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.03356167174288305,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 33612850.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 130.0,
+   "c_investissement": 2.0,
+   "v_emplois": 10.0
+  }
+ },
+ {
+  "hs6": "392690",
+  "label": "Autres ouvrages en matières plastiques",
+  "stage": 6,
+  "stage_label": "Produits finis",
+  "frontier": false,
+  "note": "Code fourre-tout : contenu hétérogène",
+  "status": "manquant",
+  "a_verifier": true,
+  "status_evidence": {
+   "regle": "aucune source trouvée ; production locale plausible (transformation)",
+   "rca": 0.005,
+   "rca_hors_27": 0.047,
+   "rca_reference": 0.289,
+   "exports_usd": 992992,
+   "production_locale": null,
+   "sources": [],
+   "note": null
+  },
+  "imports_usd": {
+   "raw": 96830691.0,
+   "source": "BACI (CEPII) HS 2012",
+   "year": "2022-2024",
+   "quality": "real"
+  },
+  "fournisseurs": [
+   {
+    "pays": "China",
+    "part": 0.444
+   },
+   {
+    "pays": "France",
+    "part": 0.116
+   },
+   {
+    "pays": "Italy",
+    "part": 0.111
+   },
+   {
+    "pays": "TÃ¼rkiye",
+    "part": 0.09
+   },
+   {
+    "pays": "Other Asia, nes",
+    "part": 0.082
+   }
+  ],
+  "tarif": {
+   "raw": 23.9285717010498,
+   "source": "WITS-TRAINS, droit moyen simple appliqué",
+   "year": 2023,
+   "quality": "real"
+  },
+  "juridique": {
+   "part_ue": {
+    "raw": 0.316,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "part_afrique": {
+    "raw": 0.034,
+    "source": "BACI (CEPII) HS 2012",
+    "year": "2022-2024",
+    "quality": "real"
+   }
+  },
+  "criteria": {
+   "f_proximite": {
+    "raw": 0.018000000000000016,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_pci": {
+    "raw": 0.403,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "v_opportunity_gain": {
+    "raw": 0.354,
+    "source": "Growth Lab, Atlas (HS 12), niveau HS4",
+    "year": 2024,
+    "quality": "real",
+    "niveau": "HS4"
+   },
+   "f_marche_eme": {
+    "raw": 0.16470511572033747,
+    "source": "BACI (CEPII) HS 2012 ; échelle = médiane des exportateurs avec RCA ≥ 1",
+    "year": "2022-2024",
+    "quality": "estimated"
+   },
+   "f_ressources": {
+    "raw": 0.0,
+    "source": "Jugement documenté : Transformation",
+    "year": 2026,
+    "quality": "estimated"
+   },
+   "v_export_zlecaf": {
+    "raw": 2106627060.0,
+    "source": "BACI (CEPII) HS 2012 ; importations des pays africains hors Algérie",
+    "year": "2022-2024",
+    "quality": "real"
+   },
+   "c_investissement": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   },
+   "v_emplois": {
+    "raw": null,
+    "source": null,
+    "year": null,
+    "quality": "missing"
+   }
+  },
+  "drc_inputs": {
+   "dzd_par_usd_va": null,
+   "quality": "missing",
+   "source": null
+  },
+  "demo": {
+   "drc_dzd_par_usd_va": 135.0,
+   "c_investissement": 2.0,
+   "v_emplois": 10.0
+  }
+ }
+]

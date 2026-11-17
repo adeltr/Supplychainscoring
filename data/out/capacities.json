@@ -1,0 +1,303 @@
+[
+ {
+  "id": "cap_charge_gaz",
+  "type": "ressource",
+  "label": "Gaz, éthane et propane disponibles comme charge",
+  "state": "disponible",
+  "required_by": [
+   "290121",
+   "290122",
+   "290511",
+   "310210"
+  ],
+  "sources": [
+   {
+    "id": "BACI",
+    "titre": "BACI (CEPII), HS 2012, V202601",
+    "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37",
+    "date": "2026-01",
+    "nature": "base de données"
+   }
+  ],
+  "note": "Exportations de gaz naturel et de propane observées dans BACI"
+ },
+ {
+  "id": "cap_vapocraqueur",
+  "type": "infrastructure",
+  "label": "Vapocraqueur en service",
+  "state": "partielle",
+  "required_by": [
+   "290121"
+  ],
+  "sources": [
+   {
+    "id": "S2",
+    "titre": "MEES - Sonatrach to replace Skikda plastics complex (unité d'éthylène de 120 000 t/an jugée non compétitive ; fermeture annoncée)",
+    "url": "https://www.mees.com/2013/12/6/refining-petrochemicals/sonatrach-to-replace-skikda-plastics-complex/9154cc50-6df7-11e7-ac98-d3b564145f5c",
+    "date": "2013-12",
+    "nature": "presse spécialisée"
+   },
+   {
+    "id": "S13",
+    "titre": "Zawya - Chinese firm to prepare study for Algeria petrochem project (nouveau vapocraqueur à Skikda)",
+    "url": "https://www.zawya.com/en/projects/bri/chinese-firm-to-prepare-study-for-algeria-petrochem-project-cjt0dj17",
+    "date": "non datée",
+    "nature": "presse"
+   }
+  ],
+  "note": "Ancienne unité de Skikda jugée non compétitive ; nouveau vapocraqueur à l'étude"
+ },
+ {
+  "id": "cap_pdh",
+  "type": "infrastructure",
+  "label": "Unité de déshydrogénation du propane",
+  "state": "manquante",
+  "required_by": [
+   "290122"
+  ],
+  "sources": [
+   {
+    "id": "S3",
+    "titre": "Sonatrach - L'usine de polypropylène d'Arzew entrera en production en 2025 (PDH + PP 550 000 t/an)",
+    "url": "https://sonatrach.com/actualites/oran-lusine-de-production-de-polypropylene-darzew-entrera-en-production-en-2025",
+    "date": "non datée",
+    "nature": "communiqué d'entreprise"
+   }
+  ],
+  "note": "Projet STEP Arzew ; mise en service non confirmée"
+ },
+ {
+  "id": "cap_aromatiques",
+  "type": "infrastructure",
+  "label": "Reformage et extraction des aromatiques",
+  "state": "partielle",
+  "required_by": [
+   "290220",
+   "290243"
+  ],
+  "sources": [
+   {
+    "id": "BACI",
+    "titre": "BACI (CEPII), HS 2012, V202601",
+    "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37",
+    "date": "2026-01",
+    "nature": "base de données"
+   }
+  ],
+  "note": "Benzène exporté ; aucun flux de p-xylène"
+ },
+ {
+  "id": "cap_electrolyse",
+  "type": "infrastructure",
+  "label": "Électrolyse chlore-soude",
+  "state": "inconnue",
+  "required_by": [
+   "280110"
+  ],
+  "sources": [],
+  "note": "Aucune source publique trouvée dans cette session"
+ },
+ {
+  "id": "cap_electricite",
+  "type": "infrastructure",
+  "label": "Électricité industrielle disponible",
+  "state": "disponible",
+  "required_by": [
+   "280110",
+   "390110",
+   "390120",
+   "390210",
+   "390410",
+   "390760"
+  ],
+  "sources": [
+   {
+    "id": "BACI",
+    "titre": "BACI (CEPII), HS 2012, V202601",
+    "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37",
+    "date": "2026-01",
+    "nature": "base de données"
+   }
+  ],
+  "note": "Exportations d'électricité observées dans BACI (code 271600)"
+ },
+ {
+  "id": "cap_zone_petrochimique",
+  "type": "infrastructure",
+  "label": "Zones pétrochimiques portuaires avec utilités (Arzew ; Skikda)",
+  "state": "disponible",
+  "required_by": [
+   "290121",
+   "290122",
+   "290250",
+   "290321",
+   "290531",
+   "291736",
+   "390110",
+   "390120",
+   "390210",
+   "390311",
+   "390319",
+   "390410",
+   "390760"
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+    "url": "https://sonatrach.com/refining-petrochemicals/",
+    "date": "consulté 2026-11",
+    "nature": "site d'entreprise"
+   }
+  ],
+  "note": "Complexes existants listés par Sonatrach"
+ },
+ {
+  "id": "cap_exploitation_petrochimie",
+  "type": "competence",
+  "label": "Ingénieurs et opérateurs de procédés pétrochimiques",
+  "state": "disponible",
+  "required_by": [
+   "290121",
+   "290122",
+   "290250",
+   "290321",
+   "290531",
+   "291736",
+   "291211",
+   "390910"
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+    "url": "https://sonatrach.com/refining-petrochemicals/",
+    "date": "consulté 2026-11",
+    "nature": "site d'entreprise"
+   }
+  ],
+  "note": "Complexes en exploitation (CP1Z)"
+ },
+ {
+  "id": "cap_licences_polymerisation",
+  "type": "competence",
+  "label": "Licences et maîtrise des procédés de polymérisation",
+  "state": "partielle",
+  "required_by": [
+   "390110",
+   "390120",
+   "390210",
+   "390311",
+   "390319",
+   "390410",
+   "390760"
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "titre": "Sonatrach - Raffinage et pétrochimie (liste des complexes : CP1Z méthanol résines formol ; CP2K PEHD 130 000 t/an)",
+    "url": "https://sonatrach.com/refining-petrochemicals/",
+    "date": "consulté 2026-11",
+    "nature": "site d'entreprise"
+   },
+   {
+    "id": "S3",
+    "titre": "Sonatrach - L'usine de polypropylène d'Arzew entrera en production en 2025 (PDH + PP 550 000 t/an)",
+    "url": "https://sonatrach.com/actualites/oran-lusine-de-production-de-polypropylene-darzew-entrera-en-production-en-2025",
+    "date": "non datée",
+    "nature": "communiqué d'entreprise"
+   }
+  ],
+  "note": "PEHD (CP2K) et projet de polypropylène ; rien pour les autres résines"
+ },
+ {
+  "id": "cap_parc_machines",
+  "type": "infrastructure",
+  "label": "Parc d'extrudeuses et de presses à injecter",
+  "state": "disponible",
+  "required_by": [
+   "391721",
+   "391722",
+   "391723",
+   "392010",
+   "392020",
+   "392043",
+   "392062",
+   "392111",
+   "391740",
+   "391810",
+   "392310",
+   "392321",
+   "392330",
+   "392350",
+   "392410",
+   "392510",
+   "392520",
+   "392690"
+  ],
+  "sources": [
+   {
+    "id": "S14",
+    "titre": "Team France Export - fiche marché Algérie (importations de la plasturgie ; machines)",
+    "url": "https://www.teamfrance-export.fr/fiche-marche/industrie/industries-du-futur-materiaux-et-process/DZ",
+    "date": "2024",
+    "nature": "agence publique"
+   },
+   {
+    "id": "S12",
+    "titre": "Issuu - Industrie Algérie n°2 (Setif Pipe ; Cite Tubes : tubes PEHD et PVC ; accessoires)",
+    "url": "https://issuu.com/maghrebex/docs/industrie-algerie-2/88",
+    "date": "non datée",
+    "nature": "revue professionnelle"
+   }
+  ],
+  "note": "Tissu de transformateurs existant ; machines importées"
+ },
+ {
+  "id": "cap_moules",
+  "type": "competence",
+  "label": "Conception et maintenance de moules et d'outillages",
+  "state": "inconnue",
+  "required_by": [
+   "391740",
+   "392310",
+   "392330",
+   "392350",
+   "392410",
+   "392690"
+  ],
+  "sources": [],
+  "note": "Aucune source publique trouvée dans cette session"
+ },
+ {
+  "id": "cap_norme_alimentaire",
+  "type": "norme",
+  "label": "Conformité au contact alimentaire et laboratoires d'essai",
+  "state": "inconnue",
+  "required_by": [
+   "392010",
+   "392020",
+   "392062",
+   "392310",
+   "392330",
+   "392350",
+   "392410"
+  ],
+  "sources": [],
+  "note": "Aucune source publique trouvée dans cette session"
+ },
+ {
+  "id": "cap_norme_reseaux",
+  "type": "norme",
+  "label": "Certification des tubes pour l'eau potable et le gaz",
+  "state": "inconnue",
+  "required_by": [
+   "391721",
+   "391722",
+   "391723",
+   "391740"
+  ],
+  "sources": [],
+  "note": "Aucune source publique trouvée dans cette session"
+ }
+]

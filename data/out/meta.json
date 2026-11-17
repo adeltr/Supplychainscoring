@@ -1,0 +1,169 @@
+{
+ "genere_le": "2026-11-17",
+ "pays": "Algérie",
+ "filiere": "Pétrochimie → plasturgie",
+ "pays_reference": "Égypte",
+ "nomenclature": "HS2012",
+ "periode_baci": "2022-2024",
+ "taux_change": {
+  "officiel": {
+   "valeur": 131.61,
+   "annee": 2025,
+   "source": "Banque mondiale, PA.NUS.FCRF (moyenne annuelle, DZD par USD)"
+  },
+  "parallele": {
+   "valeur": null,
+   "source": null,
+   "date": null
+  }
+ },
+ "parametres": {
+  "taux_protection_pct": 30,
+  "part_intrants_dans_valeur": 0.6,
+  "seuil_part_ue_pct": 50
+ },
+ "seuils": {
+  "rca_couvert": 1.0,
+  "exportations_partiel_usd": 1000000,
+  "importations_significatives_usd": 1000000
+ },
+ "demo": {
+  "autorise": true,
+  "actif_par_defaut": false
+ },
+ "donnee_manquante": "renormaliser",
+ "presets": {
+  "equilibree": {
+   "libelle": "Équilibrée",
+   "description": "Tous les critères à leur poids par défaut.",
+   "poids": {},
+   "contraintes": {
+    "seuil_intrants": 50,
+    "projets_par_vague": 4,
+    "exclure_drc_sup_1": false,
+    "inclure_partiels": true
+   }
+  },
+  "fruits_faciles": {
+   "libelle": "Fruits faciles",
+   "description": "Ce qui est faisable tout de suite, à faible coût.",
+   "poids": {
+    "f_proximite": 5,
+    "f_intrants_critiques": 5,
+    "f_capacites": 5,
+    "f_marche_eme": 4,
+    "f_ressources": 3,
+    "c_drc": 4,
+    "c_investissement": 5,
+    "c_surcout_aval": 3,
+    "v_imports_evites": 2,
+    "v_pci": 1,
+    "v_opportunity_gain": 1,
+    "v_entrainement": 1,
+    "v_export_zlecaf": 2,
+    "v_emplois": 2
+   },
+   "contraintes": {
+    "seuil_intrants": 100,
+    "projets_par_vague": 4,
+    "exclure_drc_sup_1": true,
+    "inclure_partiels": true
+   }
+  },
+  "souverainete": {
+   "libelle": "Souveraineté",
+   "description": "Réduire la facture d'importation et sécuriser l'amont.",
+   "poids": {
+    "f_proximite": 2,
+    "f_intrants_critiques": 3,
+    "f_capacites": 2,
+    "f_marche_eme": 3,
+    "f_ressources": 4,
+    "c_drc": 2,
+    "c_investissement": 2,
+    "c_surcout_aval": 3,
+    "v_imports_evites": 5,
+    "v_pci": 2,
+    "v_opportunity_gain": 1,
+    "v_entrainement": 5,
+    "v_export_zlecaf": 1,
+    "v_emplois": 3
+   },
+   "contraintes": {
+    "seuil_intrants": 50,
+    "projets_par_vague": 3,
+    "exclure_drc_sup_1": false,
+    "inclure_partiels": true
+   }
+  },
+  "montee_en_gamme": {
+   "libelle": "Montée en gamme",
+   "description": "Produits complexes et tournés vers l'exportation.",
+   "poids": {
+    "f_proximite": 2,
+    "f_intrants_critiques": 3,
+    "f_capacites": 2,
+    "f_marche_eme": 2,
+    "f_ressources": 1,
+    "c_drc": 2,
+    "c_investissement": 2,
+    "c_surcout_aval": 3,
+    "v_imports_evites": 2,
+    "v_pci": 5,
+    "v_opportunity_gain": 5,
+    "v_entrainement": 3,
+    "v_export_zlecaf": 4,
+    "v_emplois": 2
+   },
+   "contraintes": {
+    "seuil_intrants": 50,
+    "projets_par_vague": 3,
+    "exclure_drc_sup_1": false,
+    "inclure_partiels": true
+   }
+  }
+ },
+ "decompte_qualite": {
+  "real": 276,
+  "missing": 140,
+  "estimated": 90
+ },
+ "decompte_statuts": {
+  "manquant": 23,
+  "partiel": 11,
+  "absent": 7,
+  "couvert": 5
+ },
+ "importations_filiere_usd": 1993828061,
+ "importations_pays_usd": 39907604829,
+ "avertissements": [
+  "Réseau produit-produit publié non trouvé : le graphe est entièrement saisi à la main.",
+  "Distance, PCI et gain d'opportunité sont publiés au niveau HS4.",
+  "DRC, investissement et emplois : aucune source publique ; valeurs de démonstration désactivées par défaut.",
+  "Taux de change parallèle : à saisir par l'utilisateur."
+ ],
+ "sources": [
+  {
+   "nom": "BACI (CEPII)",
+   "url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS12_V202601.zip",
+   "version": "V202601",
+   "licence": "Etalab 2.0",
+   "nomenclature": "HS 2012",
+   "present": true,
+   "taille_octets": 1267950839,
+   "empreinte_debut_sha256": "9753379d9bd9be34c595e9168d6be5487b09fa92942cebf5fb53380cd671273b"
+  },
+  {
+   "nom": "Growth Lab, Atlas of Economic Complexity (HS 12)",
+   "doi": "doi:10.7910/DVN/YAVJDF",
+   "url": "https://doi.org/10.7910/DVN/YAVJDF",
+   "niveau": "HS4",
+   "present": true
+  },
+  {
+   "nom": "WITS-TRAINS, droits appliqués",
+   "url": "https://wits.worldbank.org",
+   "present": true
+  }
+ ]
+}

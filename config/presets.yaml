@@ -1,0 +1,21 @@
+# Poids de 1 à 5 par critère. Contraintes par défaut de chaque préréglage.
+equilibree:
+  libelle: Équilibrée
+  description: Tous les critères à leur poids par défaut.
+  poids: {}
+  contraintes: {seuil_intrants: 50, projets_par_vague: 4, exclure_drc_sup_1: false, inclure_partiels: true}
+fruits_faciles:
+  libelle: Fruits faciles
+  description: Ce qui est faisable tout de suite, à faible coût.
+  poids: {f_proximite: 5, f_intrants_critiques: 5, f_capacites: 5, f_marche_eme: 4, f_ressources: 3, c_drc: 4, c_investissement: 5, c_surcout_aval: 3, v_imports_evites: 2, v_pci: 1, v_opportunity_gain: 1, v_entrainement: 1, v_export_zlecaf: 2, v_emplois: 2}
+  contraintes: {seuil_intrants: 100, projets_par_vague: 4, exclure_drc_sup_1: true, inclure_partiels: true}
+souverainete:
+  libelle: Souveraineté
+  description: Réduire la facture d'importation et sécuriser l'amont.
+  poids: {f_proximite: 2, f_intrants_critiques: 3, f_capacites: 2, f_marche_eme: 3, f_ressources: 4, c_drc: 2, c_investissement: 2, c_surcout_aval: 3, v_imports_evites: 5, v_pci: 2, v_opportunity_gain: 1, v_entrainement: 5, v_export_zlecaf: 1, v_emplois: 3}
+  contraintes: {seuil_intrants: 50, projets_par_vague: 3, exclure_drc_sup_1: false, inclure_partiels: true}
+montee_en_gamme:
+  libelle: Montée en gamme
+  description: Produits complexes et tournés vers l'exportation.
+  poids: {f_proximite: 2, f_intrants_critiques: 3, f_capacites: 2, f_marche_eme: 2, f_ressources: 1, c_drc: 2, c_investissement: 2, c_surcout_aval: 3, v_imports_evites: 2, v_pci: 5, v_opportunity_gain: 5, v_entrainement: 3, v_export_zlecaf: 4, v_emplois: 2}
+  contraintes: {seuil_intrants: 50, projets_par_vague: 3, exclure_drc_sup_1: false, inclure_partiels: true}

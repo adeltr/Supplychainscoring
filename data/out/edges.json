@@ -1,0 +1,466 @@
+[
+ {
+  "from": "271121",
+  "to": "290121",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Vapocraquage de l'éthane extrait du gaz naturel"
+ },
+ {
+  "from": "271000",
+  "to": "290121",
+  "kind": "secondaire",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Voie alternative : vapocraquage du naphta"
+ },
+ {
+  "from": "271112",
+  "to": "290122",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Déshydrogénation du propane"
+ },
+ {
+  "from": "271000",
+  "to": "290122",
+  "kind": "secondaire",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Voie alternative : coproduit du vapocraquage et du craquage catalytique"
+ },
+ {
+  "from": "271000",
+  "to": "290220",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Reformage catalytique puis extraction des aromatiques"
+ },
+ {
+  "from": "271000",
+  "to": "290243",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Reformage catalytique puis séparation des xylènes"
+ },
+ {
+  "from": "250100",
+  "to": "280110",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Électrolyse de la saumure (chlore-soude)"
+ },
+ {
+  "from": "271121",
+  "to": "290511",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Reformage du gaz en gaz de synthèse puis synthèse du méthanol"
+ },
+ {
+  "from": "271121",
+  "to": "310210",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Gaz vers ammoniac puis urée"
+ },
+ {
+  "from": "290121",
+  "to": "290250",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Alkylation du benzène par l'éthylène puis déshydrogénation"
+ },
+ {
+  "from": "290220",
+  "to": "290250",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Benzène de l'éthylbenzène"
+ },
+ {
+  "from": "290121",
+  "to": "290531",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Oxydation en oxyde d'éthylène puis hydratation"
+ },
+ {
+  "from": "290243",
+  "to": "291736",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Oxydation du p-xylène"
+ },
+ {
+  "from": "290511",
+  "to": "291211",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Oxydation catalytique du méthanol"
+ },
+ {
+  "from": "290121",
+  "to": "390110",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polymérisation haute pression de l'éthylène"
+ },
+ {
+  "from": "290121",
+  "to": "390120",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polymérisation basse pression de l'éthylène"
+ },
+ {
+  "from": "290122",
+  "to": "390210",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polymérisation du propène"
+ },
+ {
+  "from": "290250",
+  "to": "390311",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polymérisation en suspension du styrène avec agent d'expansion"
+ },
+ {
+  "from": "290250",
+  "to": "390319",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polymérisation du styrène"
+ },
+ {
+  "from": "290321",
+  "to": "390410",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polymérisation du chlorure de vinyle"
+ },
+ {
+  "from": "291736",
+  "to": "390760",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Polycondensation de l'acide téréphtalique"
+ },
+ {
+  "from": "290531",
+  "to": "390760",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Diol de la polycondensation"
+ },
+ {
+  "from": "291211",
+  "to": "390910",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Condensation urée-formaldéhyde"
+ },
+ {
+  "from": "310210",
+  "to": "390910",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Urée de la condensation"
+ },
+ {
+  "from": "390120",
+  "to": "391721",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion de tubes ; le PEHD est la résine de base"
+ },
+ {
+  "from": "280300",
+  "to": "391721",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Noir de carbone pour la tenue aux ultraviolets"
+ },
+ {
+  "from": "390210",
+  "to": "391722",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion de tubes"
+ },
+ {
+  "from": "390410",
+  "to": "391723",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion de tubes"
+ },
+ {
+  "from": "381230",
+  "to": "391723",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Stabilisants thermiques du PVC"
+ },
+ {
+  "from": "390110",
+  "to": "392010",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion-soufflage de films ; le PEBD est la résine de base"
+ },
+ {
+  "from": "390120",
+  "to": "392010",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Résine complémentaire des films"
+ },
+ {
+  "from": "381230",
+  "to": "392010",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Antioxydants et stabilisants"
+ },
+ {
+  "from": "390210",
+  "to": "392020",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion et étirage de films"
+ },
+ {
+  "from": "390410",
+  "to": "392043",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Calandrage ou extrusion"
+ },
+ {
+  "from": "291732",
+  "to": "392043",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Le PVC souple exige un plastifiant (au moins 6 % dans la définition du code)"
+ },
+ {
+  "from": "390760",
+  "to": "392062",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion et bi-étirage"
+ },
+ {
+  "from": "390311",
+  "to": "392111",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Moulage du polystyrène expansible"
+ },
+ {
+  "from": "390410",
+  "to": "391740",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection de raccords"
+ },
+ {
+  "from": "390210",
+  "to": "391740",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Raccords en polypropylène"
+ },
+ {
+  "from": "390410",
+  "to": "391810",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Enduction ou calandrage"
+ },
+ {
+  "from": "291732",
+  "to": "391810",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Plastifiant des revêtements souples"
+ },
+ {
+  "from": "390210",
+  "to": "392310",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection"
+ },
+ {
+  "from": "390120",
+  "to": "392310",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection de caisses en PEHD"
+ },
+ {
+  "from": "390110",
+  "to": "392321",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion-soufflage de gaine puis soudure"
+ },
+ {
+  "from": "390120",
+  "to": "392321",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Sacs en PEHD"
+ },
+ {
+  "from": "390760",
+  "to": "392330",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection-soufflage de préformes"
+ },
+ {
+  "from": "390120",
+  "to": "392330",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion-soufflage de flacons en PEHD"
+ },
+ {
+  "from": "390120",
+  "to": "392350",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection ou compression de bouchons"
+ },
+ {
+  "from": "390210",
+  "to": "392350",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Bouchons en polypropylène"
+ },
+ {
+  "from": "390210",
+  "to": "392410",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection"
+ },
+ {
+  "from": "390120",
+  "to": "392510",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Rotomoulage ou extrusion-soufflage"
+ },
+ {
+  "from": "390410",
+  "to": "392520",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Extrusion de profilés"
+ },
+ {
+  "from": "320611",
+  "to": "392520",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Pigment blanc des profilés"
+ },
+ {
+  "from": "381230",
+  "to": "392520",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Stabilisants thermiques"
+ },
+ {
+  "from": "390210",
+  "to": "392690",
+  "kind": "critique",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection ; code hétérogène donc lien indicatif"
+ },
+ {
+  "from": "390120",
+  "to": "392690",
+  "kind": "secondaire",
+  "source": "PlasticsEurope, Eco-profiles of the European plastics industry ; Ullmann's Encyclopedia of Industrial Chemistry, article Plastics, Processing (procédés de transformation)",
+  "source_verifiee_en_ligne": false,
+  "note": "Injection ; code hétérogène donc lien indicatif"
+ },
+ {
+  "from": "290121",
+  "to": "290321",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Chloration de l'éthylène en dichlorure d'éthylène puis craquage (intermédiaire non isolé ici)"
+ },
+ {
+  "from": "280110",
+  "to": "290321",
+  "kind": "critique",
+  "source": "Weissermel K., Arpe H.-J., Industrial Organic Chemistry, 4e éd., Wiley-VCH, 2003 (procédés de la pétrochimie de base)",
+  "source_verifiee_en_ligne": false,
+  "note": "Chlore de la chloration de l'éthylène"
+ }
+]

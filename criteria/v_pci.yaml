@@ -1,0 +1,19 @@
+id: v_pci
+famille: valeur
+libelle: Complexité du produit (PCI)
+definition: >
+  Niveau de savoir-faire que suppose le produit, déduit des pays qui
+  l'exportent : un produit complexe est exporté par peu de pays, eux-mêmes
+  diversifiés.
+formule: "Product Complexity Index du Growth Lab (méthode des réflexions)"
+source: {nom: "Growth Lab, Atlas of Economic Complexity, International Trade Data (HS 12)", url: "https://doi.org/10.7910/DVN/YAVJDF", licence: "CC BY 4.0 (à vérifier sur la page du jeu de données)", millesime: 2024}
+type: donnee
+champ: v_pci
+normalisation: {methode: minmax}
+sens: plus_haut_plus_favorable
+poids_defaut: 3
+actif_par_defaut: true
+limites: >
+  Publié au niveau HS4. La complexité mesure qui exporte, pas la difficulté
+  technique réelle : les produits liés aux hydrocarbures ressortent peu
+  complexes parce que des pays peu diversifiés les exportent.

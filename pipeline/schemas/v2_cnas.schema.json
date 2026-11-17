@@ -1,0 +1,41 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "CNAS - effectifs déclarés",
+ "description": "Une ligne par entreprise × année",
+ "x-confidentialite": "confidentiel",
+ "x-cle_de_jointure": "entreprise_id",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "entreprise_id",
+   "annee",
+   "effectif_moyen"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "entreprise_id": {
+    "type": "string",
+    "description": "Identifiant d'entreprise pseudonymisé (NIF ou numéro de registre haché)"
+   },
+   "annee": {
+    "type": "integer",
+    "minimum": 2000
+   },
+   "effectif_moyen": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   },
+   "masse_salariale_dzd": {
+    "type": [
+     "number",
+     "null"
+    ],
+    "minimum": 0
+   }
+  }
+ }
+}

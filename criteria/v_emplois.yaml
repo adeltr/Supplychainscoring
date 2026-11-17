@@ -1,0 +1,16 @@
+id: v_emplois
+famille: valeur
+libelle: Emplois
+definition: >
+  Nombre d'emplois directs créés par million de dollars de production.
+formule: "emplois par million USD de production, par branche"
+source: {nom: "Aucune source chargée en V1 (ONUDI INDSTAT envisagée ; CNAS en V2)", url: null, licence: null, millesime: null}
+type: donnee
+champ: v_emplois
+normalisation: {methode: minmax}
+sens: plus_haut_plus_favorable
+poids_defaut: 2
+actif_par_defaut: true
+limites: >
+  Donnée manquante en V1. Des valeurs de démonstration existent, désactivées
+  par défaut.

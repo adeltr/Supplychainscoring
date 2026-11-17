@@ -1,0 +1,336 @@
+[
+ {
+  "id": "f_capacites",
+  "famille": "faisabilite",
+  "libelle": "Capacités disponibles",
+  "definition": "Part des prérequis non marchands du produit (compétences, normes, infrastructures, ressources) qui sont en place.",
+  "formule": "100 × moyenne des états, avec disponible = 1, partielle = 0,5, manquante = 0, inconnue = 0. 100 si aucune capacité n'est requise.",
+  "source": {
+   "nom": "data/manual/capacities.csv (sources publiques citées par ligne)",
+   "url": null,
+   "licence": null,
+   "millesime": 2026
+  },
+  "type": "calcule",
+  "depend_de": [
+   "capacites"
+  ],
+  "normalisation": {
+   "methode": "direct"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Liste de capacités établie à dire d'expert, non exhaustive. Une capacité d'état inconnu compte comme absente : le critère pénalise donc ce qui n'est pas documenté. Quatre capacités sur treize sont d'état inconnu en V1."
+ },
+ {
+  "id": "f_intrants_critiques",
+  "famille": "faisabilite",
+  "libelle": "Intrants critiques disponibles",
+  "definition": "Part des intrants critiques du produit qui sont disponibles localement : couverts aujourd'hui, ou lancés dans une vague antérieure de la feuille de route.",
+  "formule": "100 × (nombre d'intrants critiques disponibles) / (nombre d'intrants critiques). 100 si le produit n'a aucun intrant critique.",
+  "source": {
+   "nom": "Graphe de la filière (data/manual/edges.csv) et statuts BACI",
+   "url": null,
+   "licence": null,
+   "millesime": "2022-2024"
+  },
+  "type": "calcule",
+  "depend_de": [
+   "aretes",
+   "statuts",
+   "etat_de_la_chaine"
+  ],
+  "normalisation": {
+   "methode": "direct"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 4,
+  "actif_par_defaut": true,
+  "limites": "Compte les intrants en nombre, sans les pondérer par leur poids dans le coût. Dépend du graphe saisi à la main. « Disponible » signifie RCA ≥ 1, pas « disponible en quantité et en qualité suffisantes pour l'aval »."
+ },
+ {
+  "id": "f_marche_eme",
+  "famille": "faisabilite",
+  "libelle": "Marché local face à l'échelle efficace",
+  "definition": "Compare la taille du marché algérien à la taille qu'il faut pour produire à un coût compétitif. Un marché plus grand que l'échelle efficace peut absorber une usine ; un marché plus petit suppose d'exporter.",
+  "formule": "importations algériennes du produit / médiane des exportations annuelles des pays qui l'exportent avec RCA ≥ 1 et au moins 10 M USD",
+  "source": {
+   "nom": "BACI (CEPII) HS 2012",
+   "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37",
+   "licence": "Etalab 2.0",
+   "millesime": "2022-2024"
+  },
+  "type": "donnee",
+  "champ": "f_marche_eme",
+  "normalisation": {
+   "methode": "logminmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Valeur estimée. Le numérateur ignore la production locale déjà vendue sur le marché intérieur. Le dénominateur est une approximation grossière : les exportations d'un pays ne sont pas la capacité d'une usine. Une vraie échelle minimale efficace vient d'études d'ingénierie par procédé."
+ },
+ {
+  "id": "f_proximite",
+  "famille": "faisabilite",
+  "libelle": "Proximité des savoir-faire",
+  "definition": "Mesure à quel point le produit ressemble à ce que l'Algérie exporte déjà avec avantage comparatif. Plus la proximité est forte, plus les compétences nécessaires existent déjà.",
+  "formule": "1 − distance, où distance = part (pondérée par la proximité entre produits) des produits voisins que le pays n'exporte pas avec RCA ≥ 1",
+  "source": {
+   "nom": "Growth Lab, Atlas of Economic Complexity, International Trade Data (HS 12)",
+   "url": "https://doi.org/10.7910/DVN/YAVJDF",
+   "licence": "CC BY 4.0 (à vérifier sur la page du jeu de données)",
+   "millesime": 2024
+  },
+  "type": "donnee",
+  "champ": "f_proximite",
+  "normalisation": {
+   "methode": "minmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Publié au niveau HS4 : tous les HS6 d'une même position reçoivent la même valeur. Calculé sur les exportations : dominé par les hydrocarbures dans le cas algérien, et aveugle aux savoir-faire tournés vers le marché intérieur."
+ },
+ {
+  "id": "f_ressources",
+  "famille": "faisabilite",
+  "libelle": "Ressources naturelles",
+  "definition": "Indique si la matière ou l'énergie qui fait l'essentiel du coût du produit est une ressource algérienne.",
+  "formule": "100 si le produit dérive directement d'une ressource nationale (gaz, propane, naphta, sel) ; 50 s'il en dérive par un intermédiaire ; 0 sinon",
+  "source": {
+   "nom": "Jugement documenté par nœud (data/manual/nodes.csv, colonnes ressource et ressource_note)",
+   "url": null,
+   "licence": null,
+   "millesime": 2026
+  },
+  "type": "donnee",
+  "champ": "f_ressources",
+  "normalisation": {
+   "methode": "direct"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 2,
+  "actif_par_defaut": true,
+  "limites": "Valeur estimée, à trois niveaux seulement. Ne dit rien du prix auquel la ressource est cédée à l'industrie, ni de son coût d'opportunité à l'exportation."
+ },
+ {
+  "id": "c_drc",
+  "famille": "cout",
+  "libelle": "Coût en ressources domestiques (DRC)",
+  "definition": "Combien de ressources nationales (travail, capital, énergie aux prix intérieurs) il faut dépenser pour économiser un dollar d'importation. En dessous de 1, produire localement coûte moins cher au pays qu'importer.",
+  "formule": "DRC = (coût des facteurs domestiques en DZD / taux de change) / valeur ajoutée aux prix mondiaux en USD",
+  "source": {
+   "nom": "Aucune source publique au niveau HS6 pour l'Algérie",
+   "url": null,
+   "licence": null,
+   "millesime": null
+  },
+  "type": "calcule",
+  "depend_de": [
+   "drc_inputs",
+   "taux_de_change"
+  ],
+  "normalisation": {
+   "methode": "bornes",
+   "min": 0,
+   "max": 2
+  },
+  "sens": "plus_bas_plus_favorable",
+  "poids_defaut": 4,
+  "actif_par_defaut": true,
+  "limites": "Donnée manquante en V1 pour tous les nœuds. Le calcul est en place et réagit au taux de change choisi, mais il ne tourne que sur des valeurs de démonstration, désactivées par défaut. Un vrai DRC demande des comptes d'exploitation par procédé et des prix de référence."
+ },
+ {
+  "id": "c_investissement",
+  "famille": "cout",
+  "libelle": "Investissement initial",
+  "definition": "Ordre de grandeur du capital à engager pour une unité de taille efficace.",
+  "formule": "classe de 1 (atelier de transformation) à 5 (complexe pétrochimique intégré)",
+  "source": {
+   "nom": "Aucune source publique homogène par HS6",
+   "url": null,
+   "licence": null,
+   "millesime": null
+  },
+  "type": "donnee",
+  "champ": "c_investissement",
+  "normalisation": {
+   "methode": "bornes",
+   "min": 1,
+   "max": 5
+  },
+  "sens": "plus_bas_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Donnée manquante en V1. Des classes de démonstration existent (data/manual/demo_values.csv), désactivées par défaut. À remplacer par les montants des projets déclarés à l'AAPI (V2) ou par des références d'ingénierie."
+ },
+ {
+  "id": "c_surcout_aval",
+  "famille": "cout",
+  "libelle": "Surcoût pour l'aval en cas de protection",
+  "definition": "Ce que paieraient en plus, chaque année, les utilisateurs algériens du produit (industries en aval, puis consommateurs) si on le protégeait par un droit ou une restriction.",
+  "formule": "surcoût = taux de protection hypothétique × importations annuelles du produit. Les utilisateurs en aval du graphe sont listés.",
+  "source": {
+   "nom": "BACI (importations) ; WITS-TRAINS (droit appliqué actuel, pour information)",
+   "url": "https://wits.worldbank.org",
+   "licence": "Banque mondiale, conditions WITS",
+   "millesime": "2022-2024 ; 2023"
+  },
+  "type": "calcule",
+  "depend_de": [
+   "importations",
+   "aretes",
+   "taux_protection_pct"
+  ],
+  "normalisation": {
+   "methode": "logminmax"
+  },
+  "sens": "plus_bas_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Borne haute de court terme : suppose que toute la demande importée paie le surcoût. Ce n'est pas un taux de protection effective : il faudrait les coefficients d'intrants de chaque utilisateur, absents en V1. La répartition du surcoût entre utilisateurs n'est pas calculable sans données de douane par entreprise (V2)."
+ },
+ {
+  "id": "v_emplois",
+  "famille": "valeur",
+  "libelle": "Emplois",
+  "definition": "Nombre d'emplois directs créés par million de dollars de production.",
+  "formule": "emplois par million USD de production, par branche",
+  "source": {
+   "nom": "Aucune source chargée en V1 (ONUDI INDSTAT envisagée ; CNAS en V2)",
+   "url": null,
+   "licence": null,
+   "millesime": null
+  },
+  "type": "donnee",
+  "champ": "v_emplois",
+  "normalisation": {
+   "methode": "minmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 2,
+  "actif_par_defaut": true,
+  "limites": "Donnée manquante en V1. Des valeurs de démonstration existent, désactivées par défaut."
+ },
+ {
+  "id": "v_entrainement",
+  "famille": "valeur",
+  "libelle": "Effet d'entraînement",
+  "definition": "Valeur des importations que le produit aide à remplacer plus loin dans la chaîne : somme des importations de tous les produits situés en aval et pas encore disponibles localement.",
+  "formule": "somme des importations des descendants du nœud dans le graphe, hors nœuds déjà disponibles",
+  "source": {
+   "nom": "Graphe de la filière et BACI",
+   "url": null,
+   "licence": null,
+   "millesime": "2022-2024"
+  },
+  "type": "calcule",
+  "depend_de": [
+   "aretes",
+   "importations",
+   "etat_de_la_chaine"
+  ],
+  "normalisation": {
+   "methode": "logminmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Limité aux produits de la filière : les débouchés hors plasturgie ne sont pas comptés. La centralité de distorsion de Liu (2019) n'est pas calculable en V1 : elle demande un tableau entrées-sorties national et des mesures de distorsion par secteur."
+ },
+ {
+  "id": "v_export_zlecaf",
+  "famille": "valeur",
+  "libelle": "Potentiel d'export ZLECAf",
+  "definition": "Taille du marché africain pour ce produit : ce que les autres pays du continent importent chaque année.",
+  "formule": "somme des importations du produit par les pays africains, hors Algérie",
+  "source": {
+   "nom": "BACI (CEPII) HS 2012",
+   "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37",
+   "licence": "Etalab 2.0",
+   "millesime": "2022-2024"
+  },
+  "type": "donnee",
+  "champ": "v_export_zlecaf",
+  "normalisation": {
+   "methode": "logminmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 2,
+  "actif_par_defaut": true,
+  "limites": "Taille de marché brute : ni la distance, ni les coûts de transport, ni les concurrents déjà installés, ni les règles d'origine ne sont pris en compte."
+ },
+ {
+  "id": "v_imports_evites",
+  "famille": "valeur",
+  "libelle": "Importations évitées nettes",
+  "definition": "Importations du produit que la production locale remplacerait, moins les importations d'intrants que cette production déclencherait tant que ses intrants critiques ne sont pas disponibles localement.",
+  "formule": "importations × (1 − part des intrants dans la valeur × part des intrants critiques non disponibles)",
+  "source": {
+   "nom": "BACI (CEPII) HS 2012 et graphe de la filière",
+   "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37",
+   "licence": "Etalab 2.0",
+   "millesime": "2022-2024"
+  },
+  "type": "calcule",
+  "depend_de": [
+   "importations",
+   "aretes",
+   "etat_de_la_chaine",
+   "part_intrants_dans_valeur"
+  ],
+  "normalisation": {
+   "methode": "logminmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 4,
+  "actif_par_defaut": true,
+  "limites": "Valeur estimée : la part des intrants dans la valeur est une hypothèse unique (60 % par défaut, réglable), faute de coefficients techniques par produit. Suppose une substitution complète des importations."
+ },
+ {
+  "id": "v_opportunity_gain",
+  "famille": "valeur",
+  "libelle": "Gain d'opportunité",
+  "definition": "Mesure combien l'entrée dans ce produit rapprocherait l'Algérie d'autres produits complexes qu'elle ne fabrique pas encore.",
+  "formule": "Complexity Outlook Gain du Growth Lab",
+  "source": {
+   "nom": "Growth Lab, Atlas of Economic Complexity, International Trade Data (HS 12)",
+   "url": "https://doi.org/10.7910/DVN/YAVJDF",
+   "licence": "CC BY 4.0 (à vérifier sur la page du jeu de données)",
+   "millesime": 2024
+  },
+  "type": "donnee",
+  "champ": "v_opportunity_gain",
+  "normalisation": {
+   "methode": "minmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 2,
+  "actif_par_defaut": true,
+  "limites": "Publié au niveau HS4. Très corrélé à la complexité sur une filière étroite : risque de double comptage si les deux critères ont un poids élevé."
+ },
+ {
+  "id": "v_pci",
+  "famille": "valeur",
+  "libelle": "Complexité du produit (PCI)",
+  "definition": "Niveau de savoir-faire que suppose le produit, déduit des pays qui l'exportent : un produit complexe est exporté par peu de pays, eux-mêmes diversifiés.",
+  "formule": "Product Complexity Index du Growth Lab (méthode des réflexions)",
+  "source": {
+   "nom": "Growth Lab, Atlas of Economic Complexity, International Trade Data (HS 12)",
+   "url": "https://doi.org/10.7910/DVN/YAVJDF",
+   "licence": "CC BY 4.0 (à vérifier sur la page du jeu de données)",
+   "millesime": 2024
+  },
+  "type": "donnee",
+  "champ": "v_pci",
+  "normalisation": {
+   "methode": "minmax"
+  },
+  "sens": "plus_haut_plus_favorable",
+  "poids_defaut": 3,
+  "actif_par_defaut": true,
+  "limites": "Publié au niveau HS4. La complexité mesure qui exporte, pas la difficulté technique réelle : les produits liés aux hydrocarbures ressortent peu complexes parce que des pays peu diversifiés les exportent."
+ }
+]
